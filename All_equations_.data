@@ -1,0 +1,554 @@
+Class 0 (hyperparameters + results + depth/lenght + equations) 
+
+###########################################
+ADASYN
+###########################################
+Hyperparameters
+##################
+1062	140	110	(6, 11)	0.004860986358844367	0.9721630871568676	0.010593602979566193	0.012339305441333812	7e-06	0.9946542454161807	(-1252.3128840321367, 4397.211546849721)	4.438682208379473e-06
+##################
+Results
+###################
+MEAN_ACC = 0.9166666666666667
+ STD_ACC = 0.0018518518518518268
+ MEAN_ROC_AUC = 0.9155923821675196
+ STD_ROC_AUC = 0.0041120977460586405
+ MEAN_PRECISION = 0.9002357524504832
+ STD_PRECISION = 0.0048223929636133644
+ MEAN_RECALL = 0.9313254176456174
+ STD_RECALL = 0.011087322407522082
+ MEAN_F1_SCORE = 0.914689257975327
+ STD_F1_SCORE = 0.0029670171375995036
+###################
+Depth/Length 
+###################
+depth = 20, length = 57 
+depth = 28, length = 205
+depth = 26, length = 110 
+depth = 25, length = 148 
+depth = 18, length = 117
+###################
+Equations 
+###################
+Clean Fomula Fold 0 = ['np.tan(log(log10(np.cos(min(log2(max(min(min(X5, sqrt(max(np.cos(np.abs(log(sqrt(np.sin(max(X4, 1826.196)))))), log2(CubeRoot(949.209))))), np.subtract(np.abs(X6), X1)), log2(np.tan(log(log10(np.cos(min(log(np.multiply(log10(max(CubeRoot(np.cos(np.sin(X6))), log2(X7))), sqrt(np.subtract(X1, X5)))), log10(sqrt(np.tan(X1))))))))))), CubeRoot(np.subtract(max(X1, 33.305), X1)))))))']
+Clean Fomula Fold 1 = ['np.tan(CubeRoot(CubeRoot(np.cos(np.subtract(np.subtract(X8, X1), np.sin(min(log2(np.abs(div(np.multiply(min(np.add(CubeRoot(X0), np.multiply(np.tan(np.abs(max(max(np.sin(X6), CubeRoot(X3)), log2(np.add(CubeRoot(np.multiply(2051.413, X8)), np.multiply(min(X2, X0), CubeRoot(X1))))))), log10(np.sin(log10(min(745.509, np.sin(np.abs(np.abs(np.multiply(X7, X4)))))))))), np.multiply(log10(max(np.multiply(X8, X7), np.tan(np.add(np.abs(X1), log2(2695.337))))), min(X5, 2655.605))), sqrt(np.cos(np.tan(X1)))), log(log2(np.add(120.815, X0)))))), sqrt(log(div(div(min(log(log2(log(np.tan(X6)))), np.tan(CubeRoot(log10(np.add(np.multiply(np.multiply(235.743, X1), X8), log10(max(np.cos(np.sin(np.sin(min(log10(np.subtract(div(X8, log2(X4)), np.add(np.multiply(CubeRoot(X0), X5), sqrt(np.tan(div(X5, X8)))))), np.multiply(X2, log(log10(X5))))))), min(np.tan(div(X8, X4)), np.multiply(X1, X5))))))))), log(np.abs(np.cos(np.abs(np.subtract(X1, X3)))))), np.tan(div(np.subtract(log2(max(np.cos(X6), np.subtract(X2, X6))), max(log(np.subtract(log(np.sin(log2(max(log2(X3), X5)))), np.cos(X8))), np.sin(log2(np.abs(X7))))), div(CubeRoot(sqrt(max(np.subtract(div(max(np.add(X0, X6), CubeRoot(X5)), CubeRoot(log2(X2))), log2(log(min(-1024.108, X2)))), X0))), np.cos(min(min(np.multiply(np.cos(np.cos(X6)), np.multiply(log2(X1), np.tan(X7))), np.add(np.sin(sqrt(X6)), log(max(X8, 3924.040)))), np.multiply(X2, X1))))))))))))))))']
+Clean Fomula Fold 2 = ['np.cos(np.subtract(log(div(np.add(log2(X7), np.subtract(X6, np.tan(np.tan(np.add(np.multiply(X1, np.cos(X1)), np.abs(2273.872)))))), log2(sqrt(np.subtract(np.add(X6, X0), X3))))), np.add(np.tan(np.abs(np.abs(np.cos(div(log(log2(np.sin(np.abs(max(div(X2, X0), X1))))), div(np.cos(np.abs(log2(np.add(np.cos(min(np.cos(min(div(np.sin(log2(np.add(np.multiply(X4, X3), div(max(np.multiply(X1, 4181.466), CubeRoot(X4)), log2(np.abs(log10(np.abs(X3)))))))), np.add(np.add(X0, sqrt(np.cos(np.abs(X0)))), max(np.cos(log10(X0)), X4))), np.subtract(sqrt(np.add(594.513, X6)), log(div(log2(log2(X4)), np.subtract(sqrt(4093.971), sqrt(CubeRoot(X2)))))))), X8)), np.add(np.sin(X1), np.abs(X1)))))), min(np.subtract(X4, X4), log(log10(X1))))))))), X1)))']
+Clean Fomula Fold 3 = ['np.cos(np.add(log(log10(np.add(log10(np.cos(sqrt(X1))), min(np.cos(np.subtract(log10(max(np.tan(sqrt(X6)), sqrt(np.add(np.subtract(sqrt(X1), np.abs(np.tan(np.subtract(log10(np.subtract(log(np.multiply(np.abs(div(np.abs(CubeRoot(X7)), min(CubeRoot(X4), np.cos(578.714)))), CubeRoot(div(log10(X6), np.tan(X7))))), max(div(log2(X4), np.abs(X7)), log(X3)))), np.sin(np.sin(X1)))))), np.add(3189.382, X2))))), min(sqrt(np.subtract(CubeRoot(sqrt(np.multiply(CubeRoot(X3), np.subtract(max(X2, -1175.945), np.cos(div(X4, np.multiply(np.tan(np.add(np.tan(np.abs(X2)), X0)), X7))))))), np.abs(max(max(np.abs(max(CubeRoot(log10(np.tan(log(max(np.add(X8, np.add(X2, 2509.581)), sqrt(min(log(X7), log(np.tan(X3))))))))), np.tan(log2(X1)))), np.abs(np.tan(np.subtract(log10(log2(X5)), np.sin(np.sin(X1)))))), log2(np.tan(np.add(4002.393, 2205.847))))))), np.subtract(log2(np.add(CubeRoot(X2), np.abs(sqrt(np.subtract(X1, np.subtract(np.sin(log10(X1)), np.abs(np.add(np.add(X1, X8), 3512.339)))))))), np.subtract(np.abs(CubeRoot(X8)), sqrt(X8)))))), X3)))), X1))']
+Clean Fomula Fold 4 = ['np.sin(min(X7, np.subtract(min(max(np.multiply(CubeRoot(np.add(np.multiply(sqrt(max(X1, X8)), log(sqrt(2649.579))), np.add(np.add(CubeRoot(X8), CubeRoot(1297.977)), CubeRoot(max(np.multiply(max(np.sin(np.tan(X3)), CubeRoot(max(np.subtract(np.sin(sqrt(X0)), X8), log(log(np.tan(289.556)))))), CubeRoot(div(log10(np.add(X1, X4)), div(np.sin(X6), np.tan(X3))))), X5))))), log2(-1138.277)), log2(sqrt(sqrt(sqrt(np.subtract(np.subtract(min(X2, X4), div(X2, np.cos(X2))), np.sin(div(log(X8), log(X8))))))))), X1), CubeRoot(np.subtract(sqrt(np.tan(log2(np.subtract(log2(max(CubeRoot(np.sin(np.cos(log2(X7)))), log10(min(np.add(log(np.cos(X6)), log10(X6)), min(np.cos(div(-602.492, X1)), np.add(np.cos(log10(X6)), max(X6, min(np.subtract(255.396, X8), np.subtract(X2, X1))))))))), X1)))), CubeRoot(X0))))))']
+#########################################
+BORDERLINESMOTE k = 2
+#########################################
+Hyperparameters 
+###################
+1678	144	391	(4, 8)	0.0064424532423208985	0.963247890060803	0.007686268626547313	0.02172982151378797	9e-06	0.9968488285815128	(-1545.5132698903024, 1440.310377226286)	4.872446758655076e-05
+###################
+Results
+###################
+MEAN_ACC = 0.9040178571428571
+ STD_ACC = 0.01473214285714286
+ MEAN_ROC_AUC = 0.9027995632092856
+ STD_ROC_AUC = 0.01640239103207569
+ MEAN_PRECISION = 0.874223215670809
+ STD_PRECISION = 0.018708386414044265
+ MEAN_RECALL = 0.9400673781629669
+ STD_RECALL = 0.015338887917235311
+ MEAN_F1_SCORE = 0.9050125411845109
+ STD_F1_SCORE = 0.017164795045537085
+###################
+Depth/Length 
+###################
+depth = 10, length = 38
+depth = 20, length = 97
+depth = 19, length = 162 
+depth = 21, length = 97
+depth = 18, length = 65
+###################
+Equations 
+###################
+Clean Fomula Fold 0 = ['np.tan(max(np.subtract(log2(X2), np.multiply(log(X1), X0)), max(min(np.subtract(max(np.sin(log10(CubeRoot(X1))), log(np.cos(X5))), np.tan(np.cos(X2))), np.add(X7, -1065.574)), np.cos(np.multiply(log2(X1), log2(np.subtract(X1, np.cos(np.abs(np.multiply(X3, X1))))))))))']
+Clean Fomula Fold 1 = ['np.cos(np.abs(np.subtract(np.subtract(np.subtract(X1, np.abs(max(np.tan(X1), min(X2, np.add(np.sin(-420.446), div(np.multiply(np.abs(sqrt(np.add(X6, X4))), CubeRoot(X0)), div(div(CubeRoot(X2), X8), log(np.sin(np.abs(X6)))))))))), log(np.cos(np.cos(np.add(div(X5, np.subtract(X5, np.tan(np.abs(max(max(log2(np.subtract(X1, X5)), div(np.add(log10(np.cos(min(-395.024, np.subtract(X4, X2)))), np.subtract(X4, X7)), X3)), sqrt(np.abs(log10(X7)))))))), np.add(np.subtract(X1, np.abs(max(np.tan(X1), np.subtract(np.abs(np.cos(log2(X5))), np.abs(log(X5)))))), X3)))))), log2(np.cos(np.cos(np.add(np.abs(np.tan(log10(log(np.sin(div(-1462.163, X1)))))), np.abs(np.abs(-1229.760)))))))))']
+Clean Fomula Fold 2 = ['np.add(CubeRoot(log(log10(sqrt(div(CubeRoot(np.abs(log2(CubeRoot(div(np.abs(X1), X6))))), np.cos(min(np.add(np.sin(X5), np.cos(log(log(log2(X5))))), div(CubeRoot(np.tan(div(X0, X0))), log(np.sin(log2(X1))))))))))), max(div(np.add(CubeRoot(log(log10(sqrt(div(CubeRoot(np.abs(np.multiply(X0, X1))), np.cos(min(np.add(np.sin(X5), np.cos(log(np.multiply(X2, X0)))), div(CubeRoot(np.tan(div(X0, X0))), log(np.sin(log2(X1))))))))))), max(div(np.subtract(np.subtract(max(max(np.tan(np.tan(sqrt(log(CubeRoot(X1))))), np.tan(np.tan(log10(np.tan(log(X1)))))), div(np.tan(X1), np.add(X3, X8))), log10(np.multiply(X1, X1))), np.add(np.add(min(np.tan(log(log(np.multiply(CubeRoot(np.abs(log2(log10(np.sin(X7))))), X3)))), log2(div(np.cos(np.multiply(div(X8, X1), np.abs(-593.834))), log(X7)))), np.cos(np.cos(np.multiply(X6, CubeRoot(CubeRoot(X8)))))), np.subtract(X1, X3))), log10(log10(np.add(np.tan(sqrt(np.subtract(X2, X7))), X5)))), np.cos(np.subtract(np.abs(X1), log10(np.abs(np.multiply(X3, np.multiply(X5, X8)))))))), log10(CubeRoot(max(X8, X6)))), log2(np.multiply(np.cos(X0), np.multiply(X2, X3)))))']
+Clean Fomula Fold 3 = ['np.tan(np.tan(np.cos(np.add(np.cos(np.add(np.multiply(sqrt(log(X1)), np.tan(X1)), sqrt(min(div(log2(log(max(sqrt(log2(np.abs(X8))), log(np.subtract(X8, X1))))), np.multiply(log(min(np.multiply(X3, div(np.multiply(np.subtract(np.subtract(np.add(np.add(log(X2), log10(X2)), np.tan(X8)), X5), np.abs(CubeRoot(log2(np.multiply(X8, log(X4)))))), np.sin(log10(log10(max(X6, X2))))), div(X0, X8))), np.abs(np.sin(X1)))), log2(X3))), log(np.subtract(max(np.tan(np.add(X1, min(log10(np.subtract(X1, X6)), log(max(X8, X1))))), log2(sqrt(X1))), log10(np.add(div(np.cos(X6), X3), np.multiply(CubeRoot(log(X1)), X7))))))))), np.add(-535.411, X1)))))']
+Clean Fomula Fold 4 = ['np.cos(np.multiply(np.abs(min(sqrt(min(-1316.991, CubeRoot(np.tan(div(np.cos(log(X1)), sqrt(min(div(min(X0, X2), np.tan(X4)), np.tan(747.743)))))))), X1)), np.cos(log2(max(log10(X1), sqrt(np.multiply(div(sqrt(CubeRoot(div(sqrt(div(np.add(X2, X1), np.cos(CubeRoot(np.multiply(log2(log(X7)), X5))))), div(log2(X1), min(X1, X5))))), np.subtract(log10(np.tan(X1)), sqrt(CubeRoot(X2)))), np.subtract(np.sin(X1), np.cos(X3)))))))))']
+###########################################
+KMEANSSMOTE k = 2
+###########################################
+Hyperparameters 
+##################
+1829	196	204	(6, 12)	0.005858497291452341	0.9654021019395751	0.018207854924222805	0.010114945421806347	5e-06	0.9964836881877295	(-6106.329725925003, 8101.195526609601)	2.433676624103032e-05
+###################
+Results
+###################
+MEAN_ACC = 0.9174107142857144
+ STD_ACC = 0.024553571428571452
+ MEAN_ROC_AUC = 0.9173221856644306
+ STD_ROC_AUC = 0.024821225889295362
+ MEAN_PRECISION = 0.9062271509917732
+ STD_PRECISION = 0.02818916463735699
+ MEAN_RECALL = 0.9225756037706694
+ STD_RECALL = 0.02372582231219217
+ MEAN_F1_SCORE = 0.9108060373928324
+ STD_F1_SCORE = 0.027602533349705805
+#####################
+Depth/length 
+#####################
+depth = 23, length = 160
+depth = 22, length = 267
+depth = 25, length = 117
+depth = 32, length = 216
+depth = 27, length = 87
+######################
+Formulas 
+######################
+Clean Fomula Fold 0 = ['np.tan(min(min(np.multiply(sqrt(min(7923.012, np.subtract(np.cos(np.sin(log2(X1))), np.sin(np.sin(np.add(min(div(np.subtract(X6, X2), X5), X5), sqrt(sqrt(X7)))))))), np.add(max(min(min(X4, X3), np.add(log2(log2(np.cos(X1))), max(log(X8), max(np.tan(np.cos(X6)), log(X1))))), min(np.multiply(CubeRoot(log2(np.add(X1, X2))), np.subtract(X5, X1)), np.subtract(CubeRoot(sqrt(np.abs(X8))), np.tan(max(X5, log10(log10(CubeRoot(X7)))))))), np.cos(min(div(np.abs(X4), CubeRoot(X7)), X7)))), np.cos(min(np.multiply(log2(7434.740), log(log2(max(X1, np.multiply(np.tan(min(np.tan(np.cos(np.sin(np.tan(min(log10(CubeRoot(log(np.abs(np.add(X4, X3))))), log(np.add(X4, X8))))))), log10(X1))), log2(np.add(np.tan(log(max(sqrt(np.add(X1, log10(log2(log(np.cos(np.abs(sqrt(X1)))))))), np.abs(np.abs(div(np.tan(CubeRoot(np.add(log2(X3), X7))), np.tan(X5))))))), np.multiply(X1, X2)))))))), np.subtract(X1, np.sin(np.tan(X1)))))), np.cos(min(np.multiply(log2(7434.740), log(log2(max(X1, log10(min(log10(div(np.add(X1, X4), X1)), X6)))))), max(X1, X0)))))']
+Clean Fomula Fold 1 = ['max(np.add(np.subtract(X6, X1), np.tan(np.add(np.cos(X6), np.abs(np.tan(4355.645))))), min(log2(min(np.multiply(np.multiply(max(div(np.multiply(X7, np.abs(np.abs(sqrt(X5)))), np.subtract(np.tan(np.cos(np.add(X1, log10(log2(np.sin(sqrt(np.add(X1, np.sin(div(np.cos(log(1001.464)), np.multiply(np.multiply(CubeRoot(5241.821), np.cos(X4)), np.multiply(log10(X3), np.multiply(X1, X2))))))))))))), CubeRoot(np.abs(np.subtract(log10(CubeRoot(div(-4966.588, X3))), sqrt(X1)))))), np.abs(np.sin(np.add(np.subtract(np.abs(sqrt(X3)), np.tan(np.subtract(np.subtract(X8, X4), log10(X5)))), np.add(np.sin(max(np.tan(X8), np.cos(np.add(log2(np.add(X7, X6)), np.abs(sqrt(X6)))))), np.subtract(min(log10(np.multiply(-3678.909, X4)), min(X6, X7)), log10(min(5328.889, X5)))))))), min(np.sin(min(X3, np.add(X1, X3))), log10(CubeRoot(X3)))), max(min(np.multiply(np.cos(np.tan(np.tan(np.subtract(np.add(X1, X8), np.cos(np.abs(np.abs(min(np.add(X7, X4), div(X1, X8))))))))), sqrt(div(np.subtract(np.multiply(np.tan(log10(log2(CubeRoot(np.sin(log2(max(np.add(sqrt(np.sin(X1)), np.subtract(X2, X1)), np.add(-5227.232, X0)))))))), np.tan(min(np.subtract(sqrt(np.subtract(X0, max(np.abs(sqrt(np.multiply(X3, X0))), log2(log2(np.tan(X3)))))), np.subtract(np.tan(X1), np.tan(log(np.tan(log(np.cos(np.subtract(X1, X7)))))))), np.add(np.add(CubeRoot(np.abs(min(X3, X3))), log(X5)), np.multiply(sqrt(X5), np.sin(X1)))))), np.tan(np.cos(np.sin(log2(np.multiply(X0, X4)))))), np.tan(np.abs(div(X1, np.abs(log10(log2(X0))))))))), np.add(1058.986, X8)), X3)), np.tan(np.multiply(div(np.subtract(np.tan(X3), min(div(np.sin(np.tan(X8)), X5), X0)), min(np.sin(log10(min(np.cos(min(X8, X4)), log2(np.add(-5139.243, CubeRoot(X4)))))), log2(np.tan(np.sin(log10(log10(np.subtract(log(log2(CubeRoot(X4))), np.add(np.multiply(X7, X8), np.sin(X6)))))))))), log10(np.tan(log(np.multiply(X5, log2(X2))))))))), max(X7, X3)))']
+Clean Fomula Fold 2 = ['np.cos(np.subtract(X1, max(np.sin(log2(np.add(np.subtract(np.tan(np.multiply(X8, X1)), X3), np.multiply(log(log2(7276.139)), log10(7696.727))))), np.abs(np.abs(max(min(log2(np.tan(CubeRoot(X1))), max(log10(X3), min(log2(np.tan(log10(X5))), max(np.sin(np.sin(min(X3, np.sin(X8)))), log(np.tan(sqrt(X1))))))), np.subtract(min(np.add(CubeRoot(np.sin(log2(np.tan(np.abs(log(X5)))))), np.add(np.abs(log(np.sin(np.cos(min(np.sin(log10(np.multiply(log(np.multiply(np.sin(sqrt(X1)), np.subtract(log10(CubeRoot(X0)), np.abs(max(np.multiply(X6, np.abs(X2)), sqrt(X2)))))), np.multiply(log10(np.subtract(X1, X5)), X1)))), X0))))), log(np.tan(X1)))), log10(X6)), log(np.add(CubeRoot(CubeRoot(X2)), np.add(np.abs(np.cos(np.tan(div(log10(log(np.tan(X3))), np.abs(np.tan(log(np.multiply(X1, X6)))))))), log(np.tan(X1))))))))))))']
+Clean Fomula Fold 3 = ['np.tan(np.tan(np.cos(np.subtract(X1, np.tan(log(log2(min(min(log(np.subtract(X3, X2)), np.abs(np.sin(X1))), np.add(div(sqrt(np.abs(log2(max(np.add(np.cos(np.tan(CubeRoot(min(np.add(np.subtract(CubeRoot(np.subtract(X2, log(np.sin(max(log10(log10(X5)), np.abs(X6)))))), np.tan(np.multiply(X7, max(log2(X2), max(np.add(min(log10(X5), X4), np.abs(X5)), np.subtract(log2(np.add(X6, np.sin(CubeRoot(np.multiply(CubeRoot(X6), X5))))), X6)))))), max(log2(X0), div(log(X1), sqrt(min(np.abs(2946.342), log2(log10(sqrt(X0)))))))), log10(np.multiply(log2(np.multiply(log2(np.abs(max(6970.270, X0))), log(max(X2, 5645.340)))), np.abs(min(sqrt(CubeRoot(CubeRoot(np.add(X4, X8)))), max(np.cos(np.add(X0, 6143.884)), np.tan(X0)))))))))), max(log10(X8), CubeRoot(X5))), np.tan(np.subtract(log(CubeRoot(np.tan(log10(X1)))), max(np.subtract(max(np.multiply(div(np.add(X7, X6), np.sin(max(div(np.abs(log10(np.subtract(np.multiply(X7, 5440.353), np.multiply(max(-3229.929, log2(X1)), np.tan(X3))))), div(CubeRoot(503.084), np.tan(X4))), max(np.sin(log(X2)), log(min(np.multiply(log10(np.subtract(np.sin(np.add(X5, X8)), np.subtract(np.sin(X8), CubeRoot(-5002.142)))), np.multiply(np.multiply(X8, X3), np.subtract(np.multiply(X1, X4), np.sin(X3)))), np.multiply(np.tan(min(np.sin(min(X6, X0)), log(sqrt(X7)))), CubeRoot(X7)))))))), X3), div(X1, X6)), np.add(np.tan(X8), np.cos(X1))), div(max(np.cos(X2), np.add(X8, X1)), np.add(max(X8, X4), np.abs(X2)))))))))), np.sin(sqrt(np.abs(X1)))), X6)))))))))']
+Clean Fomula Fold 4 = ['np.tan(np.sin(div(log(np.add(-90.403, np.add(np.tan(np.tan(X1)), div(log(min(log(np.multiply(X6, X7)), np.add(np.multiply(X6, max(X2, X2)), np.add(log2(np.sin(min(div(np.add(np.multiply(np.cos(max(log(X2), log10(log(X0)))), log2(log10(np.tan(X6)))), np.subtract(sqrt(log2(div(X6, X1))), np.cos(log10(X3)))), np.abs(np.tan(np.multiply(log(np.abs(X5)), div(log(X7), max(np.abs(np.tan(max(np.cos(log2(np.multiply(X4, CubeRoot(X2)))), X4))), min(X5, X1))))))), CubeRoot(X0)))), np.add(X5, np.tan(log10(X1))))))), np.cos(CubeRoot(sqrt(X1))))))), np.tan(sqrt(X1)))))']
+
+############################################
+SMOTE k = 1
+############################################
+Hyperparameters 
+####################
+1897	117	236	(5, 9)	0.013058135616495652	0.9501620306637542	0.01892414020172815	0.017475773114523616	8e-06	0.994990425490776	(-7107.871001439451, 9596.523895282067)	5.8867353177361506e-05
+####################
+Results
+###################
+MEAN_ACC = 0.9107142857142858
+ STD_ACC = 0.035714285714285754
+ MEAN_ROC_AUC = 0.9135576236739748
+ STD_ROC_AUC = 0.03311074096341737
+ MEAN_PRECISION = 0.8904468780087329
+ STD_PRECISION = 0.048544896971601637
+ MEAN_RECALL = 0.9401500987234932
+ STD_RECALL = 0.014491757065151545
+ MEAN_F1_SCORE = 0.9126473388461493
+ STD_F1_SCORE = 0.03372988807874505
+####################
+Depth/Length 
+####################
+depth = 33, length = 63
+depth = 24, length = 99
+depth = 24, length = 149
+depth = 20, length = 194
+depth = 16, length = 154
+###################
+Equations 
+###################
+Clean Fomula Fold 0 = ['np.tan(CubeRoot(np.tan(CubeRoot(CubeRoot(np.sin(CubeRoot(CubeRoot(CubeRoot(np.cos(np.subtract(np.add(CubeRoot(CubeRoot(-1231.328)), log10(np.sin(np.multiply(CubeRoot(np.multiply(div(max(CubeRoot(np.multiply(np.add(X5, np.sin(-3784.124)), max(np.sin(np.abs(np.cos(min(sqrt(log2(np.tan(np.cos(sqrt(np.cos(np.abs(X7))))))), log2(log10(np.cos(X8))))))), np.tan(X7)))), np.add(X1, np.tan(X1))), np.cos(X8)), log2(np.tan(np.cos(X1))))), np.cos(np.tan(X1)))))), np.subtract(2756.729, X1))))))))))))']
+Clean Fomula Fold 1 = ['np.cos(np.abs(np.subtract(X1, CubeRoot(div(np.multiply(np.abs(max(X1, min(X0, np.multiply(np.abs(div(max(X3, X7), X1)), np.add(np.tan(log2(X1)), np.multiply(np.abs(min(np.tan(X1), log10(np.tan(min(X0, X4))))), log10(X6))))))), np.add(np.tan(log2(X1)), np.multiply(np.abs(min(np.tan(X1), log(min(div(sqrt(np.subtract(log2(-2638.468), np.tan(X8))), np.abs(np.tan(CubeRoot(X1)))), div(div(np.sin(min(np.tan(CubeRoot(np.sin(div(np.tan(CubeRoot(X1)), X6)))), np.cos(X1))), np.multiply(X1, X3)), log(np.subtract(max(div(X7, 738.696), log2(CubeRoot(div(CubeRoot(CubeRoot(log2(np.tan(np.multiply(X0, X0))))), CubeRoot(CubeRoot(log10(X7))))))), np.sin(log10(X5))))))))), X8))), X0)))))']
+Clean Fomula Fold 2 = ['log2(np.multiply(np.multiply(np.multiply(np.tan(min(np.subtract(np.multiply(min(X7, X7), np.cos(np.cos(np.sin(np.abs(log2(np.add(np.sin(log(np.tan(div(min(np.add(log10(log(div(CubeRoot(1492.013), log10(X3)))), max(log2(np.sin(X2)), min(X2, X8))), np.add(X5, log2(X5))), np.add(log(X1), log(X5)))))), min(np.sin(max(np.tan(log2(X2)), np.multiply(X6, X1))), sqrt(div(sqrt(log(X4)), max(X6, X8))))))))))), np.add(np.multiply(X2, X2), div(X4, X3))), max(log2(X2), sqrt(X1)))), np.tan(np.cos(min(div(np.tan(sqrt(X1)), np.tan(np.subtract(X1, np.cos(sqrt(np.tan(div(X4, min(X7, X7)))))))), np.tan(np.abs(log10(X1))))))), np.tan(np.cos(min(div(np.sin(np.multiply(X1, log2(X1))), np.tan(np.subtract(X1, -3558.591))), div(X2, np.sin(X1)))))), np.tan(np.cos(min(div(np.sin(np.multiply(X1, np.sin(np.multiply(X1, log2(X1))))), np.tan(min(-1733.884, np.tan(np.tan(sqrt(max(np.cos(np.sin(log10(X4))), log2(np.multiply(log(X2), np.add(5346.158, X4)))))))))), div(CubeRoot(X8), np.sin(X1)))))))']
+Clean Fomula Fold 3 = ['np.add(np.add(np.sin(np.add(X1, min(np.subtract(max(div(np.tan(div(log(2836.533), np.sin(X1))), log10(log(sqrt(log(np.sin(log10(np.add(X6, X3)))))))), CubeRoot(log(np.tan(np.add(CubeRoot(X2), X1))))), X3), log10(-5926.350)))), np.add(np.add(np.sin(np.add(X1, min(np.subtract(max(div(np.tan(div(log(2836.533), np.sin(X1))), log10(log(sqrt(log(np.abs(log2(log2(X2)))))))), CubeRoot(log(np.tan(np.add(sqrt(X6), X1))))), X3), sqrt(X5)))), np.cos(CubeRoot(div(np.multiply(log(X1), sqrt(np.abs(max(CubeRoot(X2), 8485.671)))), log2(np.cos(X1)))))), np.cos(CubeRoot(div(np.multiply(CubeRoot(X1), log10(div(np.tan(CubeRoot(X1)), div(X0, X5)))), log2(min(np.cos(X1), CubeRoot(log10(log2(np.tan(X1))))))))))), np.cos(CubeRoot(div(np.multiply(CubeRoot(X1), log10(div(np.tan(CubeRoot(X1)), div(CubeRoot(np.tan(CubeRoot(log(X1)))), sqrt(log2(CubeRoot(max(div(div(CubeRoot(X1), max(X6, min(max(sqrt(np.cos(log2(7541.449))), X7), np.tan(CubeRoot(X0))))), div(np.sin(X7), max(X2, X4))), np.cos(sqrt(div(np.cos(sqrt(X8)), log2(X5)))))))))))), log2(min(np.cos(X1), CubeRoot(log10(log2(np.sin(np.cos(div(X2, min(X6, np.subtract(np.multiply(np.subtract(min(np.sin(np.add(np.multiply(X5, X8), np.abs(X2))), log10(np.subtract(X5, np.multiply(X0, X1)))), log10(np.abs(X2))), 3374.907), np.cos(CubeRoot(np.sin(X5)))))))))))))))))']
+Clean Fomula Fold 4 = ['min(log2(np.subtract(max(max(np.subtract(log2(div(np.multiply(-5548.842, X8), div(sqrt(CubeRoot(log10(log10(log(np.cos(X3)))))), np.sin(CubeRoot(X6))))), np.abs(np.subtract(X1, log(X3)))), np.add(np.cos(X1), max(np.tan(X1), np.add(np.add(CubeRoot(log10(X5)), log(X3)), div(np.sin(np.cos(X1)), X3))))), log2(np.cos(log(np.cos(np.abs(sqrt(np.abs(CubeRoot(np.abs(-2003.958)))))))))), np.multiply(np.tan(sqrt(X1)), log10(np.cos(np.tan(X1)))))), div(np.sin(np.add(np.add(log2(div(9572.465, X1)), np.multiply(max(np.multiply(np.subtract(div(sqrt(min(X4, np.abs(max(max(X1, min(X8, X7)), div(X1, X4))))), sqrt(np.cos(log(X1)))), sqrt(X0)), max(div(div(X4, X8), np.multiply(X8, X1)), X4)), log2(log(X1))), np.tan(X1))), sqrt(np.tan(max(log2(sqrt(max(np.tan(sqrt(X1)), X1))), np.cos(np.sin(np.add(min(X5, div(np.subtract(log(143.050), np.sin(X4)), log2(X0))), X3)))))))), log10(log2(min(max(max(X3, div(X4, CubeRoot(X0))), np.multiply(div(log2(np.tan(X0)), np.cos(X1)), X2)), log10(np.tan(X1)))))))']
+############################################
+SVMSMOTE k = 2
+############################################
+###################
+Hyperparameters
+###################
+1792	131	334	(3, 9)	0.012134338152647351	0.9665651393434396	0.0035626123655480273	0.017253573621652956	1e-06	0.9956606898346249	(-7414.637385189579, 9231.382506560813)	1.7420087337493055e-05
+###################
+Results
+###################
+MEAN_ACC = 0.9415178571428571
+ STD_ACC = 0.02723214285714287
+ MEAN_ROC_AUC = 0.9411552454073904
+ STD_ROC_AUC = 0.027467532428242514
+ MEAN_PRECISION = 0.9230448776877891
+ STD_PRECISION = 0.035110376149283085
+ MEAN_RECALL = 0.9661294434322816
+ STD_RECALL = 0.016231849986301006
+ MEAN_F1_SCORE = 0.9438366785302448
+ STD_F1_SCORE = 0.026066387745634856
+####################
+Depth/Length 
+####################
+depth = 24, length = 238
+depth = 31, length = 294
+depth = 29, length = 281
+depth = 14, length = 50
+depth = 51, length = 100
+####################
+Equations
+####################
+Clean Fomula Fold 0 = ['np.add(np.add(np.add(np.multiply(min(np.cos(np.cos(X1)), np.add(max(X0, X2), CubeRoot(np.cos(CubeRoot(X0))))), np.tan(sqrt(np.add(X3, X1)))), np.add(np.add(np.cos(X1), np.add(np.add(np.multiply(X8, np.tan(sqrt(np.add(X3, X1)))), np.add(np.add(np.cos(X1), np.cos(np.subtract(np.multiply(div(3685.197, X1), X8), np.cos(np.add(np.multiply(X1, np.sin(np.sin(sqrt(np.add(X5, np.sin(CubeRoot(X3))))))), np.abs(np.tan(log10(np.multiply(X6, X7))))))))), np.cos(log(min(np.multiply(np.add(np.sin(log2(CubeRoot(X3))), np.abs(np.cos(max(np.cos(np.tan(max(log(sqrt(div(X5, X8))), np.tan(X8)))), min(np.abs(X4), CubeRoot(CubeRoot(div(div(np.multiply(X5, X8), div(sqrt(np.subtract(X6, X5)), log(X5))), np.abs(sqrt(X0)))))))))), X1), np.sin(np.cos(X1))))))), np.add(np.cos(X1), log10(log10(np.abs(min(np.sin(log(X5)), np.subtract(np.tan(X5), np.tan(X1))))))))), np.cos(log(min(np.multiply(np.add(np.sin(log10(np.tan(X3))), np.abs(np.cos(max(np.cos(np.tan(max(sqrt(X1), np.tan(X8)))), min(X1, CubeRoot(CubeRoot(div(np.sin(X6), np.abs(sqrt(X0)))))))))), X1), np.subtract(np.abs(np.sin(np.tan(X3))), -2723.827)))))), np.add(np.sin(X6), log10(log10(np.abs(np.cos(CubeRoot(np.add(X8, X1)))))))), np.add(np.add(np.cos(X1), np.cos(np.subtract(np.multiply(div(3685.197, X1), X8), np.cos(np.add(np.multiply(X1, div(X8, np.cos(X8))), np.abs(log(log(CubeRoot(np.subtract(np.subtract(np.cos(X5), np.sin(X3)), sqrt(log10(X1)))))))))))), np.cos(log(min(np.multiply(np.add(np.sin(log2(CubeRoot(X3))), np.abs(np.cos(max(np.cos(np.tan(max(np.multiply(np.tan(sqrt(X6)), np.cos(CubeRoot(X0))), np.tan(X8)))), min(np.abs(X4), CubeRoot(X4)))))), X1), np.subtract(sqrt(log10(X1)), -2723.827))))))']
+Clean Fomula Fold 1 = ['min(max(X7, X8), min(np.add(X7, sqrt(log10(np.tan(log(log10(X3)))))), np.add(min(log2(X7), min(div(3389.415, np.abs(X3)), min(X1, np.add(np.tan(sqrt(np.abs(X1))), np.cos(np.add(log(-214.184), X6)))))), np.add(np.multiply(sqrt(np.abs(max(max(np.abs(X6), np.subtract(X7, X2)), log(X7)))), min(log2(X7), min(np.add(X7, div(np.tan(sqrt(X8)), np.cos(X1))), np.add(min(log2(np.add(X1, np.subtract(sqrt(np.add(np.subtract(X5, X3), div(X8, X6))), np.add(div(np.abs(X1), np.cos(X1)), log10(div(X6, X1)))))), min(np.subtract(np.abs(X7), np.multiply(-3328.255, X5)), min(X1, np.add(np.tan(sqrt(X1)), np.cos(np.add(log(-214.184), X6)))))), np.add(np.multiply(sqrt(np.abs(max(max(np.abs(X6), np.subtract(np.subtract(np.subtract(sqrt(1911.360), X3), np.multiply(max(X7, X6), np.sin(X1))), X2)), log(X7)))), min(sqrt(log(log(CubeRoot(log2(CubeRoot(max(X6, X1))))))), min(np.add(X6, np.tan(np.add(X3, X1))), np.add(min(np.add(CubeRoot(np.abs(min(np.add(np.add(X6, X8), div(X8, X6)), np.add(X3, X1)))), np.tan(log10(np.abs(max(sqrt(X2), np.add(X8, X1)))))), np.add(np.sin(np.add(X3, X1)), np.sin(min(X1, min(max(X7, np.cos(X5)), np.add(np.sin(CubeRoot(X1)), np.cos(X1))))))), np.sin(min(np.subtract(X5, np.sin(-4253.204)), min(max(X7, log(max(X5, X5))), min(log2(X6), np.add(min(log2(np.add(X1, X6)), min(div(sqrt(CubeRoot(max(-1972.892, X4))), np.abs(X3)), min(X1, np.add(np.tan(sqrt(np.abs(div(X1, X8)))), np.sin(min(X1, min(div(X7, log(X4)), max(np.add(div(X4, log2(np.abs(X8))), X8), X6)))))))), np.add(np.multiply(log2(X2), min(sqrt(CubeRoot(CubeRoot(np.cos(log2(X1))))), min(np.add(X7, np.tan(CubeRoot(X1))), np.add(min(np.add(CubeRoot(X3), np.tan(log10(X1))), np.add(np.sin(np.abs(X5)), np.sin(min(X1, min(max(X7, CubeRoot(log2(X3))), np.add(np.sin(CubeRoot(X1)), np.cos(X1))))))), np.cos(X1))))), np.cos(X1))))))))))), np.cos(X1)))))), np.cos(X1)))))']
+Clean Fomula Fold 2 = ['np.add(min(max(log2(np.sin(CubeRoot(X1))), np.subtract(max(np.multiply(log10(CubeRoot(X4)), np.multiply(7690.896, log2(X3))), X7), div(max(1377.107, X5), np.cos(np.tan(sqrt(sqrt(X1))))))), np.subtract(np.subtract(np.tan(sqrt(sqrt(X1))), min(np.tan(np.abs(CubeRoot(np.multiply(log(min(np.add(log10(max(8230.273, np.abs(div(-6965.100, X3)))), X1), np.abs(7963.220))), np.abs(div(X6, X6)))))), np.multiply(CubeRoot(np.add(min(np.tan(np.abs(log10(X4))), np.multiply(CubeRoot(np.add(log10(log2(max(np.subtract(log2(np.cos(CubeRoot(X8))), min(log2(X5), np.subtract(np.abs(X3), min(div(np.sin(-2583.207), np.abs(X4)), np.sin(np.add(log2(np.abs(X1)), np.tan(min(X3, X7)))))))), np.add(np.add(log2(log(X7)), np.subtract(np.sin(log(np.sin(np.cos(X6)))), div(X5, X6))), max(np.cos(np.cos(np.tan(np.sin(log(log(log10(X5))))))), sqrt(X4)))))), CubeRoot(np.sin(max(np.cos(log2(np.subtract(np.sin(np.sin(X3)), div(X5, X6)))), sqrt(log2(np.sin(sqrt(X1))))))))), X1)), np.tan(log(log(X1))))), X1))), min(np.multiply(X2, np.multiply(X8, -1845.098)), np.multiply(CubeRoot(np.add(min(np.tan(np.abs(np.add(X1, -4889.490))), np.multiply(CubeRoot(np.add(log10(log2(max(np.subtract(log2(np.abs(X3)), np.tan(min(log(log(X8)), np.sin(np.add(max(sqrt(np.abs(min(np.add(CubeRoot(np.subtract(X0, -1514.019)), min(np.sin(X6), div(X0, X7))), np.cos(sqrt(X2))))), log(np.tan(np.tan(log2(max(X1, X1)))))), X5))))), np.add(np.add(log2(log(X7)), np.subtract(np.sin(log(np.sin(np.sin(min(log10(X3), X1))))), div(X5, X6))), max(np.cos(np.multiply(X1, X7)), sqrt(sqrt(np.subtract(min(-2628.866, CubeRoot(min(div(max(max(np.tan(max(X3, X6)), min(X1, X3)), np.tan(np.add(np.multiply(sqrt(log10(X8)), np.sin(X8)), X3))), np.add(X5, np.tan(div(-1910.957, X2)))), log2(np.tan(log2(np.tan(8447.144))))))), X3)))))))), CubeRoot(np.sin(CubeRoot(sqrt(CubeRoot(X4))))))), X1)), np.cos(X0))), X1)))), np.subtract(np.tan(np.cos(X1)), log2(np.cos(np.tan(sqrt(sqrt(X1)))))))']
+Clean Fomula Fold 3 = ['np.cos(np.subtract(np.subtract(X1, np.sin(np.abs(min(np.tan(X1), np.multiply(-714.829, log(np.abs(np.subtract(log2(np.tan(X1)), CubeRoot(CubeRoot(X1)))))))))), np.sin(np.abs(min(np.abs(X1), np.multiply(np.abs(min(np.tan(X1), np.multiply(sqrt(X3), np.cos(div(log2(np.add(X5, np.subtract(X6, X1))), X1))))), np.sin(np.multiply(log(np.abs(X1)), log(log(X7))))))))))']
+Clean Fomula Fold 4 = ['np.tan(CubeRoot(np.tan(CubeRoot(CubeRoot(np.tan(CubeRoot(CubeRoot(np.tan(CubeRoot(np.tan(CubeRoot(CubeRoot(np.tan(CubeRoot(CubeRoot(np.tan(CubeRoot(CubeRoot(np.sin(np.tan(CubeRoot(CubeRoot(np.sin(np.tan(CubeRoot(np.tan(CubeRoot(np.sin(np.add(np.cos(np.subtract(log10(X8), np.tan(min(np.tan(div(max(X1, np.tan(sqrt(log2(np.tan(min(np.tan(np.abs(np.subtract(X3, X0))), np.sin(np.multiply(X3, X0)))))))), min(X1, np.tan(div(max(X1, div(div(X5, X0), np.sin(min(np.tan(X5), X4)))), min(X1, max(min(X1, np.tan(div(max(log(np.add(max(max(5702.789, CubeRoot(log(X2))), X5), np.abs(X2))), X1), min(X5, max(np.tan(X0), log(X1)))))), log(X1)))))))), X7)))), X1))))))))))))))))))))))))))))))']
+
+
+
+
+ 
+ 
+Class_1 
+###########################################
+ADASYN k = 0
+###########################################
+Hyperparameters
+###################
+1317	159	237	(6, 12)	0.004080716489095625	0.9642779580903459	0.030234261123897186	0.0011734548479264625	8e-06	0.9910912692738792	(-1656.2653655783738, 1399.5770364516984)	8.44203770657916e-05
+###################
+Results k = 0
+###################
+MEAN_ACC = 0.9199029558996645
+ STD_ACC = 0.027767444707891997
+ MEAN_ROC_AUC = 0.9208030859309468
+ STD_ROC_AUC = 0.026582057916815283
+ MEAN_PRECISION = 0.9281117333441171
+ STD_PRECISION = 0.030656889337548954
+ MEAN_RECALL = 0.9083911514778089
+ STD_RECALL = 0.026593868301215295
+ MEAN_F1_SCORE = 0.9176778785712845
+ STD_F1_SCORE = 0.028923084310456426
+###################
+ Depth/length
+###################
+depth = 18, length = 51
+depth = 18, length = 123
+depth = 22, length = 98
+depth = 22, length = 98
+depth = 21, length = 143
+###################
+Equations 
+###################
+Clean Fomula Fold 0 = ['CubeRoot(log10(log(div(np.tan(sqrt(max(div(np.abs(CubeRoot(sqrt(np.subtract(X1, CubeRoot(log2(max(X1, X0))))))), log10(log10(X1))), X1))), sqrt(np.subtract(np.subtract(X1, CubeRoot(np.add(log(CubeRoot(X7)), max(log(log10(np.sin(max(CubeRoot(X8), np.tan(div(sqrt(X3), max(log(X8), X3))))))), X1)))), log2(np.add(X6, X1))))))))']
+Clean Fomula Fold 1 = ['log2(max(np.add(np.add(np.cos(log10(np.tan(-345.513))), CubeRoot(np.tan(np.multiply(max(-638.675, X1), np.add(np.abs(-1304.445), sqrt(587.293)))))), log10(np.subtract(np.sin(max(np.sin(X3), sqrt(657.114))), CubeRoot(X1)))), div(div(np.multiply(np.multiply(log2(np.tan(CubeRoot(div(np.tan(np.tan(np.cos(X1))), np.subtract(-5.883, np.abs(np.abs(log2(X7)))))))), X4), log(np.sin(sqrt(np.add(log10(np.subtract(X8, X5)), X1))))), np.tan(537.536)), log10(np.abs(np.add(np.multiply(np.subtract(np.multiply(div(max(np.add(np.abs(np.sin(CubeRoot(X3))), np.cos(min(np.multiply(np.multiply(np.multiply(X3, X1), np.subtract(X5, CubeRoot(X1))), np.sin(log(X0))), np.abs(CubeRoot(np.cos(X7)))))), min(sqrt(log10(min(sqrt(log10(np.add(X4, X6))), X8))), np.tan(CubeRoot(X1)))), np.cos(log2(777.751))), X0), CubeRoot(-1409.560)), np.tan(log10(np.abs(X2)))), div(CubeRoot(np.add(np.multiply(X7, X3), np.tan(X5))), np.sin(X2))))))))']
+Clean Fomula Fold 2 = ['log2(min(min(np.tan(sqrt(X1)), log(np.sin(sqrt(max(log10(1269.188), np.add(np.tan(np.subtract(np.cos(sqrt(np.subtract(X6, div(np.sin(np.tan(sqrt(sqrt(X7)))), min(div(log10(max(sqrt(log2(X4)), log10(X0))), np.tan(min(div(np.multiply(np.cos(X3), np.multiply(-490.072, X8)), np.tan(sqrt(X2))), log(np.abs(X2))))), max(np.subtract(max(np.sin(X6), np.tan(np.cos(np.abs(X1)))), np.sin(np.cos(np.sin(np.sin(np.tan(X7)))))), max(np.sin(div(X5, X8)), div(np.multiply(X1, log10(log2(log10(694.307)))), X7)))))))), min(log10(X1), CubeRoot(X8)))), X1)))))), log(np.sin(np.subtract(min(np.tan(sqrt(X1)), max(X1, X0)), np.tan(log10(np.add(X1, X1))))))))']
+Clean Fomula Fold 3 = ['log(min(X3, min(np.add(np.tan(sqrt(X1)), max(np.add(np.subtract(np.subtract(-1343.341, X1), log2(np.abs(X4))), X2), np.add(log(np.sin(CubeRoot(np.add(X1, min(log(max(np.add(np.tan(X1), np.subtract(min(np.cos(X7), log10(X6)), np.subtract(X6, X1))), div(min(np.tan(X3), np.tan(X3)), np.subtract(np.tan(log2(CubeRoot(X5))), np.sin(X1))))), sqrt(CubeRoot(np.abs(np.subtract(max(X4, X6), X6))))))))), CubeRoot(np.sin(log2(np.tan(np.abs(div(np.tan(X1), np.multiply(sqrt(np.subtract(np.add(X3, X2), np.abs(np.cos(log2(np.tan(np.subtract(np.abs(log(X4)), np.add(log10(-879.841), div(X3, X8))))))))), log2(div(np.tan(X2), np.cos(-573.257))))))))))))), log(np.tan(sqrt(X1))))))']
+Clean Fomula Fold 4 = ['np.multiply(np.subtract(min(sqrt(max(np.subtract(np.subtract(X5, X1), CubeRoot(np.multiply(np.abs(np.multiply(sqrt(div(X7, X8)), X5)), np.tan(np.multiply(X4, np.subtract(np.add(np.add(np.abs(X5), min(X2, np.tan(np.tan(log10(CubeRoot(np.add(log2(X8), max(CubeRoot(X8), div(X8, X4))))))))), np.tan(1015.566)), max(np.subtract(X7, log2(np.multiply(X8, -1316.459))), np.subtract(X7, np.add(log10(X7), X7))))))))), max(np.tan(X1), log2(sqrt(X8))))), np.subtract(np.tan(max(sqrt(np.subtract(np.add(np.tan(np.tan(X6)), X4), X8)), sqrt(X1))), np.sin(CubeRoot(min(log2(max(np.add(X4, X4), log2(np.cos(log(log2(X6)))))), np.subtract(sqrt(X1), np.abs(np.multiply(np.tan(np.tan(np.sin(X5))), log(X6))))))))), np.sin(np.tan(CubeRoot(np.tan(log10(log2(np.tan(sqrt(X1))))))))), min(X2, np.multiply(np.abs(CubeRoot(np.tan(X8))), log(np.abs(div(np.multiply(log10(np.multiply(X3, X1)), min(np.tan(np.cos(div(div(log2(X5), np.tan(X3)), div(np.sin(X8), np.tan(X3))))), log2(np.tan(np.sin(X5))))), sqrt(X7)))))))']
+###########################################
+BorderlineSMOTE k = 0 
+###########################################
+Hyperparameters
+###################
+1478	175	291	(6, 9)	0.023870163146204843	0.9642359320160001	0.007704202324979024	0.003753527894208612	3e-06	0.997245279350019	(-2137.7315944749867, 5202.663359732798)	4.7079510537915445e-05
+###################
+Results 
+###################
+MEAN_ACC = 0.9555084745762711
+ STD_ACC = 0.016525423728813493
+ MEAN_ROC_AUC = 0.9548350858850021
+ STD_ROC_AUC = 0.017490896674246248
+ MEAN_PRECISION = 0.9621962797621411
+ STD_PRECISION = 0.0074313028036157025
+ MEAN_RECALL = 0.9510830875232498
+ STD_RECALL = 0.02535659179675409
+ MEAN_F1_SCORE = 0.9560245690594241
+ STD_F1_SCORE = 0.01629049425412976
+
+###################
+Depth/Length
+###################
+depth = 20, length = 56
+depth = 24, length = 153
+depth = 26, length = 193
+depth = 22, length = 264
+depth = 23, length = 112
+###################
+Equations 
+####################
+Clean Fomula Fold 0 = ['log(log(log(CubeRoot(np.sin(np.add(log(log10(np.subtract(np.abs(-449.645), 3341.945))), np.subtract(log2(max(sqrt(np.add(log(np.tan(-420.138)), CubeRoot(np.add(log(X2), max(div(np.add(div(np.tan(X8), np.sin(np.multiply(np.tan(X7), X1))), max(4635.005, max(sqrt(sqrt(X3)), sqrt(np.sin(-1749.298))))), log10(log2(X1))), np.add(54.298, np.sin(CubeRoot(X6)))))))), X1)), np.cos(log2(-830.508)))))))))']
+Clean Fomula Fold 1 = ['log2(log2(np.add(np.multiply(np.cos(np.add(log10(np.subtract(np.abs(X6), min(np.cos(log(max(div(X5, X1), np.sin(log10(np.tan(X4)))))), np.add(CubeRoot(np.multiply(np.multiply(4889.603, X1), np.multiply(X6, -695.539))), np.multiply(np.tan(X1), np.add(np.subtract(np.subtract(X3, X1), X1), div(2654.986, X1))))))), sqrt(-1523.126))), np.subtract(np.subtract(log2(X1), log10(np.subtract(X7, 3637.856))), CubeRoot(CubeRoot(X7)))), min(np.sin(np.multiply(np.tan(X1), max(np.tan(log10(np.sin(np.subtract(X5, CubeRoot(log(np.cos(min(np.tan(X6), log10(np.tan(CubeRoot(np.cos(log(np.sin(CubeRoot(np.cos(np.sin(X8))))))))))))))))), log(min(np.subtract(np.subtract(log(min(np.subtract(div(div(X8, sqrt(X8)), 1084.296), X7), min(-804.739, log(X7)))), np.subtract(np.cos(1936.172), X5)), log(np.abs(div(min(np.tan(-1793.808), np.multiply(min(np.sin(X1), X7), np.subtract(log(np.tan(X3)), np.add(np.abs(np.tan(X0)), X0)))), X5)))), sqrt(np.subtract(log10(np.sin(log(log10(X6)))), max(1064.325, X5)))))))), div(np.tan(log(sqrt(X1))), np.abs(np.abs(np.add(min(np.add(X4, log10(log10(X2))), np.cos(X1)), sqrt(2452.139)))))))))']
+Clean Fomula Fold 2 = ['np.subtract(np.abs(log10(np.subtract(np.subtract(np.multiply(np.multiply(X1, X4), np.subtract(X0, div(3561.764, X0))), X8), np.multiply(np.subtract(X3, X1), np.subtract(X6, np.tan(np.abs(np.sin(np.abs(div(X5, X0)))))))))), np.abs(np.add(div(np.subtract(X1, X1), np.multiply(X1, np.cos(np.subtract(log10(log(X7)), np.tan(X8))))), max(log(np.cos(sqrt(min(min(X5, min(log(div(log2(div(log(np.cos(sqrt(min(log10(np.sin(np.multiply(X7, np.add(log2(np.add(X6, div(X7, X6))), min(X7, X7))))), min(log(div(log2(div(np.cos(np.cos(np.cos(X6))), CubeRoot(np.abs(X2)))), np.tan(np.multiply(4281.221, X1)))), X3))))), CubeRoot(X6))), np.tan(np.multiply(4281.221, X1)))), log10(np.cos(X3)))), min(log(div(log2(div(log(np.cos(sqrt(min(np.tan(np.tan(np.tan(max(np.add(X0, min(X8, X3)), X6)))), min(log(div(log2(div(np.cos(np.cos(740.936)), CubeRoot(np.subtract(log10(2183.339), log2(sqrt(X2)))))), np.tan(np.multiply(4281.221, X1)))), sqrt(np.subtract(log10(log10(sqrt(2728.998))), sqrt(-1559.714)))))))), CubeRoot(np.abs(X2)))), np.tan(np.multiply(4281.221, np.abs(X1))))), np.abs(X2)))))), div(np.tan(sqrt(min(np.add(X5, sqrt(np.subtract(div(np.cos(div(np.add(X1, X1), sqrt(X7))), np.abs(X3)), np.tan(CubeRoot(X0))))), max(X1, CubeRoot(log(X0)))))), np.multiply(np.abs(log10(X6)), np.abs(np.sin(np.subtract(max(X1, X3), np.tan(X3))))))))))']
+Clean Fomula Fold 3 = ['min(np.subtract(np.sin(np.abs(np.multiply(log2(np.subtract(X5, X8)), sqrt(CubeRoot(div(min(X4, X7), log10(X6))))))), np.add(min(np.cos(X1), div(CubeRoot(log10(log2(div(log10(np.tan(X1)), np.tan(X1))))), np.subtract(div(CubeRoot(min(sqrt(max(np.tan(X1), log10(log(min(np.subtract(X5, X8), X1))))), sqrt(np.cos(X0)))), np.tan(np.sin(CubeRoot(np.subtract(np.add(np.abs(div(X6, X4)), X1), np.add(4276.787, log2(X3))))))), np.abs(max(np.subtract(-715.088, -242.964), min(log2(np.tan(CubeRoot(X2))), log(X1))))))), np.multiply(np.sin(min(np.subtract(min(X1, X4), np.add(min(np.cos(X1), max(np.multiply(-1132.417, np.tan(X1)), log2(X3))), np.multiply(np.sin(np.abs(np.add(X6, X6))), np.subtract(CubeRoot(np.tan(max(np.cos(X8), CubeRoot(X5)))), min(2734.401, X4))))), np.sin(np.add(max(np.sin(np.subtract(np.abs(np.multiply(X1, sqrt(X1))), log10(sqrt(X8)))), np.subtract(log(CubeRoot(div(np.subtract(max(min(X1, sqrt(X1)), X7), np.add(np.multiply(min(np.tan(X7), np.abs(max(X1, X3))), np.multiply(min(X0, X1), np.sin(X2))), 414.223)), np.subtract(np.add(np.add(div(np.add(log(X3), log2(X4)), X8), np.abs(np.multiply(X6, X2))), np.add(np.add(min(X2, max(np.subtract(np.abs(max(X4, X0)), log10(log(X8))), np.subtract(div(CubeRoot(X0), sqrt(X1)), log2(sqrt(X4))))), np.subtract(X6, X1)), np.sin(np.multiply(X1, X8)))), log2(np.multiply(np.tan(np.add(X1, log(1077.707))), np.sin(X5))))))), np.sin(np.tan(X1)))), CubeRoot(np.subtract(np.multiply(np.cos(X4), X1), np.multiply(sqrt(1857.231), np.abs(X1)))))))), np.subtract(X2, log(2876.594))))), np.add(np.add(np.multiply(X5, X1), min(np.tan(sqrt(np.subtract(log(X2), max(X4, X8)))), np.multiply(np.tan(np.tan(np.tan(log10(np.sin(X4))))), CubeRoot(div(div(max(np.subtract(5170.592, X6), X0), log(log2(X4))), div(CubeRoot(CubeRoot(X8)), np.subtract(min(X2, X8), CubeRoot(X0)))))))), log2(X7)))']
+Clean Fomula Fold 4 = ['np.multiply(np.abs(max(log(X7), np.sin(log(2472.748)))), np.sin(np.sin(np.multiply(log10(X5), np.sin(np.multiply(np.abs(np.add(np.tan(X2), sqrt(np.multiply(X6, min(log(max(log2(div(X6, X1)), X0)), np.subtract(np.subtract(np.abs(min(log10(X7), X8)), log10(X4)), np.sin(log2(X8)))))))), np.sin(np.sin(np.multiply(np.abs(max(np.tan(np.subtract(X1, X8)), max(np.add(log(X1), np.sin(div(np.subtract(-2042.706, min(log10(np.abs(log2(min(X1, np.multiply(np.subtract(X3, X8), log(X2)))))), np.cos(np.subtract(4831.413, X7)))), CubeRoot(X5)))), max(X8, np.tan(CubeRoot(X1)))))), np.sin(np.sin(np.multiply(log10(max(log10(1698.056), min(X5, X0))), np.sin(np.multiply(np.abs(max(sqrt(log2(log2(X1))), np.abs(max(sqrt(sqrt(np.sin(5150.628))), CubeRoot(log(np.add(X3, X1))))))), -31.973))))))))))))))']
+###########################################
+KMeansSMOTE k = 2
+###########################################
+Hyperparameters
+###################
+1115	137	112	(6, 7)	0.027780650839275303	0.9578322914132427	0.012088840877451868	0.0018021318082697012	5e-06	0.9973762267713812	(-8188.419151005226, 3035.1856912176786)	5.582220683425283e-05
+###################
+Results 
+###################
+MEAN_ACC = 0.9764303082314238
+ STD_ACC = 0.010046127440463348
+ MEAN_ROC_AUC = 0.9764212473893508
+ STD_ROC_AUC = 0.009894775776672304
+ MEAN_PRECISION = 0.9975206611570248
+ STD_PRECISION = 0.0024793388429752428
+ MEAN_RECALL = 0.9555210662072732
+ STD_RECALL = 0.02246812298191614
+ MEAN_F1_SCORE = 0.9753572130841974
+ STD_F1_SCORE = 0.01095715005943404
+####################
+Depth/Length 
+####################
+depth = 18, length = 137
+depth = 21, length = 177
+depth = 15, length = 100
+depth = 20, length = 88
+depth = 18, length = 100
+####################
+Equations
+####################
+Clean Fomula Fold 0 = ['log2(max(max(np.multiply(np.sin(np.multiply(log(sqrt(-3640.000)), max(log2(X1), sqrt(X1)))), max(log(CubeRoot(CubeRoot(np.sin(np.subtract(X6, X3))))), div(X0, log(log2(log10(X4)))))), log10(np.multiply(log(np.sin(np.abs(np.subtract(X1, X3)))), np.cos(np.cos(CubeRoot(X1)))))), max(max(np.multiply(np.sin(np.subtract(X3, np.tan(log10(np.subtract(X1, np.add(X6, CubeRoot(np.add(np.abs(max(np.multiply(np.cos(min(X2, X4)), div(np.tan(X1), log10(X4))), log10(np.tan(min(X7, X6))))), max(np.tan(X1), CubeRoot(X8)))))))))), np.multiply(X1, X7)), log10(np.multiply(X3, np.sin(X7)))), min(sqrt(log(max(min(X8, np.sin(np.add(X6, X5))), sqrt(min(np.add(CubeRoot(max(X1, log10(min(X8, X8)))), log(sqrt(np.tan(np.cos(X8))))), np.subtract(np.abs(log2(np.subtract(np.tan(div(X8, sqrt(X8))), np.tan(X1)))), log(X8))))))), np.tan(log2(div(np.add(max(-3472.578, sqrt(sqrt(div(log2(X3), log10(X7))))), X1), -1567.082)))))))']
+Clean Fomula Fold 1 = ['log10(div(log2(log10(log10(div(log2(log10(log(log2(min(np.subtract(min(X1, X7), np.multiply(np.add(CubeRoot(X8), np.sin(log2(X4))), X6)), min(sqrt(log10(CubeRoot(CubeRoot(-3447.385)))), np.cos(X1))))))), min(np.multiply(np.sin(log(X7)), np.add(np.multiply(np.multiply(X2, X1), log2(min(np.cos(np.subtract(np.tan(div(X5, X0)), div(CubeRoot(X4), sqrt(X6)))), np.multiply(log2(min(np.tan(CubeRoot(X1)), np.multiply(np.cos(X5), div(X3, X4)))), X1)))), max(np.abs(X7), max(np.subtract(np.sin(X6), log(X1)), div(np.multiply(-4583.170, X8), np.subtract(X2, X1)))))), log(CubeRoot(log2(CubeRoot(np.tan(np.abs(np.tan(CubeRoot(X1))))))))))))), min(np.multiply(np.sin(log(X7)), np.add(np.multiply(np.multiply(X2, X1), log2(min(np.tan(log(X0)), np.multiply(log2(min(np.tan(CubeRoot(X1)), np.multiply(np.add(log(min(X6, np.multiply(np.tan(log10(np.tan(CubeRoot(X1)))), max(sqrt(np.abs(CubeRoot(log2(X1)))), X3)))), log10(log10(X3))), X7))), max(np.abs(np.abs(X8)), X0))))), np.subtract(np.multiply(np.multiply(log(np.cos(X1)), log(X7)), X2), np.subtract(np.subtract(np.subtract(np.subtract(np.abs(log10(X7)), np.tan(X1)), np.tan(X1)), sqrt(CubeRoot(X3))), np.add(np.abs(X7), np.tan(np.tan(X6))))))), log(CubeRoot(log2(log10(np.tan(sqrt(log(X1))))))))))']
+Clean Fomula Fold 2 = ['min(X7, np.add(np.add(np.add(sqrt(max(min(np.abs(-1617.269), np.multiply(2440.527, np.sin(np.sin(np.subtract(np.sin(CubeRoot(np.cos(np.abs(-6355.459)))), div(X1, log2(CubeRoot(X1)))))))), log2(np.sin(min(log10(div(X1, X6)), np.cos(np.tan(X3))))))), log(np.multiply(np.sin(-4740.714), np.sin(np.multiply(np.tan(np.add(X0, X7)), -8014.787))))), np.sin(np.subtract(np.abs(-2674.968), div(X1, min(X8, X2))))), np.add(np.add(max(min(103.807, np.multiply(np.add(X2, X7), np.multiply(X6, np.sin(np.sin(np.subtract(np.cos(X1), div(X1, CubeRoot(np.subtract(X1, log(X1)))))))))), np.tan(X6)), np.sin(np.subtract(np.sin(log2(X1)), np.tan(CubeRoot(X1))))), log(np.multiply(np.sin(-4740.714), np.sin(np.multiply(np.tan(np.add(X0, X7)), log2(-8014.787))))))))']
+Clean Fomula Fold 3 = ['np.add(np.multiply(log10(np.cos(sqrt(np.subtract(min(X6, -3364.622), np.abs(div(X1, CubeRoot(log10(np.add(np.multiply(np.multiply(np.sin(np.cos(np.subtract(X0, X0))), log2(min(np.subtract(X0, X7), log(log2(np.multiply(log10(np.abs(X4)), X0)))))), log2(np.subtract(X8, X1))), X1))))))))), np.tan(sqrt(max(min(np.multiply(log2(np.add(1447.601, log2(sqrt(log2(min(X4, X8)))))), max(log10(np.abs(np.multiply(np.abs(603.968), np.cos(log(np.add(sqrt(sqrt(-1140.432)), sqrt(np.abs(np.tan(CubeRoot(X1)))))))))), div(np.sin(np.abs(np.tan(np.subtract(sqrt(X4), -347.251)))), -3991.346))), X1), CubeRoot(log(-5451.568)))))), np.cos(np.tan(log(np.sin(X1)))))']
+Clean Fomula Fold 4 = ['np.add(np.add(np.add(log(X2), np.add(np.add(np.add(np.add(np.tan(np.sin(np.tan(log10(X1)))), np.add(np.tan(np.sin(np.tan(log10(X1)))), np.add(np.add(np.add(np.tan(np.sin(np.tan(log10(X1)))), np.add(np.tan(np.sin(np.tan(log10(X1)))), np.tan(np.sin(np.tan(log10(X1)))))), log2(np.sin(log2(np.sin(div(np.subtract(log10(log10(-528.815)), sqrt(log(X8))), np.tan(X1))))))), X3))), np.add(np.tan(np.sin(np.tan(log10(X1)))), log2(np.sin(log(X1))))), log2(np.sin(log2(np.sin(div(np.cos(-5913.603), np.tan(X1))))))), div(log10(log2(np.sin(CubeRoot(max(X1, X4))))), min(sqrt(np.sin(div(np.sin(np.sin(log10(log10(-528.815)))), -6347.150))), np.cos(np.abs(sqrt(X1))))))), log2(np.sin(X1))), np.sin(X5))']
+###########################################
+SMOTE k = 0
+###########################################
+###################
+Hyperparameters
+###################
+1852	162	438	(5, 12)	0.011851937295871064	0.9791066977988009	0.003971094607213656	0.004473763390960352	8e-06	0.9977903329647547	(-1892.1339921915728, 8622.018140531305)	3.699582605675031e-05
+###################
+Results 
+###################
+MEAN_ACC = 0.9326271186440678
+ STD_ACC = 0.020762711864406647
+ MEAN_ROC_AUC = 0.9328349867136787
+ STD_ROC_AUC = 0.021209651640067773
+ MEAN_PRECISION = 0.9428850914624413
+ STD_PRECISION = 0.016695697523047337
+ MEAN_RECALL = 0.9240465078565234
+ STD_RECALL = 0.026721763635227547
+ MEAN_F1_SCORE = 0.9321087997328195
+ STD_F1_SCORE = 0.022170686558447894
+###############
+Depth/Length
+###############
+depth = 33, length = 172
+depth = 20, length = 134
+depth = 26, length = 205
+depth = 27, length = 104
+depth = 23, length = 200
+###############
+Equations
+###############
+Clean Fomula Fold 0 = ['log(np.multiply(log(log2(log2(np.sin(np.multiply(np.cos(log10(X1)), min(np.cos(log10(np.sin(np.abs(np.add(CubeRoot(X1), np.multiply(log(CubeRoot(sqrt(np.multiply(np.abs(np.add(X0, 5809.976)), max(np.sin(X2), np.abs(sqrt(np.add(np.multiply(np.tan(X1), CubeRoot(sqrt(np.abs(np.multiply(div(X8, np.sin(np.abs(np.tan(CubeRoot(np.abs(X1)))))), sqrt(X6)))))), np.sin(div(X4, X4)))))))))), np.cos(max(np.add(log10(np.subtract(np.abs(div(X0, X1)), min(np.sin(X4), X2))), div(log(np.abs(X8)), div(np.sin(X5), max(-1715.474, X5)))), np.sin(CubeRoot(X6)))))))))), np.sin(log(np.add(sqrt(np.add(X1, np.tan(log10(log10(X4))))), log10(min(min(np.tan(sqrt(np.cos(np.abs(sqrt(X1))))), np.sin(np.add(X1, div(CubeRoot(X4), log(6100.625))))), np.add(div(np.add(np.tan(X1), np.subtract(np.abs(X1), np.cos(np.sin(np.tan(X5))))), log2(X4)), X5)))))))))))), np.add(sqrt(np.add(X1, div(np.cos(CubeRoot(np.multiply(CubeRoot(np.subtract(CubeRoot(X4), np.abs(X4))), log(log10(log2(X6)))))), 5571.880))), log2(log2(div(log10(X6), log10(min(min(np.add(np.sin(min(sqrt(log(max(np.tan(div(X8, X6)), sqrt(X6)))), X6)), np.sin(np.tan(X1))), np.sin(np.add(X1, X3))), div(X1, 2350.375)))))))))']
+Clean Fomula Fold 1 = ['max(log2(np.multiply(np.multiply(np.multiply(np.tan(div(np.abs(sqrt(X1)), np.add(log2(X2), min(np.subtract(np.tan(X4), X2), X2)))), log(div(log2(np.tan(log2(np.add(X1, X1)))), np.multiply(np.cos(log10(np.tan(log2(X1)))), np.sin(CubeRoot(X1)))))), log(div(log2(np.tan(log2(np.add(X1, X1)))), np.multiply(np.cos(log10(np.tan(log2(X1)))), np.sin(X1))))), log(div(np.subtract(log2(np.tan(np.abs(log(np.sin(X1))))), sqrt(X1)), np.multiply(np.add(np.sin(np.add(np.sin(max(max(max(log2(np.cos(X7)), np.subtract(X1, X5)), np.cos(np.abs(X4))), np.cos(X8))), max(X1, np.multiply(X3, X3)))), np.add(sqrt(np.tan(log(np.cos(max(X1, np.tan(min(np.sin(X1), log10(log(log2(log(log2(X7)))))))))))), log2(np.sin(X1)))), np.sin(np.tan(sqrt(X1)))))))), np.add(np.subtract(np.cos(X6), X6), np.tan(np.add(np.abs(np.add(log10(log10(log10(np.add(np.tan(np.abs(np.subtract(X1, 6372.759))), CubeRoot(X1))))), X1)), np.tan(X1)))))']
+Clean Fomula Fold 2 = ['max(np.subtract(X2, X7), np.subtract(np.subtract(np.subtract(np.abs(max(div(np.sin(min(np.cos(log2(np.tan(np.tan(CubeRoot(X1))))), np.multiply(np.add(log10(div(np.add(np.cos(np.cos(CubeRoot(np.multiply(np.abs(X5), CubeRoot(X1))))), log10(np.add(max(np.multiply(X1, X8), np.sin(log(sqrt(X1)))), log10(np.subtract(log10(X1), np.cos(X1)))))), CubeRoot(X3))), np.tan(np.sin(log(X1)))), np.abs(X6)))), np.multiply(log10(log10(np.tan(np.sin(np.tan(np.tan(np.subtract(X5, 8539.526))))))), sqrt(min(log2(np.subtract(min(log2(np.subtract(X1, X5)), np.abs(X0)), np.sin(log(X0)))), div(np.cos(np.multiply(X2, X5)), np.add(X1, 5510.079)))))), np.subtract(np.abs(np.abs(max(div(np.sin(min(X7, np.multiply(np.add(log10(CubeRoot(sqrt(log2(log2(X5))))), np.tan(np.sin(log(X1)))), np.abs(X6)))), log2(sqrt(np.sin(X1)))), np.subtract(np.abs(log2(np.tan(np.multiply(np.subtract(log10(-687.413), CubeRoot(np.subtract(X1, np.sin(np.add(log10(sqrt(X4)), X1))))), max(X6, np.tan(X7)))))), np.cos(log2(log2(np.tan(log2(div(CubeRoot(div(X6, X5)), np.tan(np.tan(np.abs(max(2794.901, log10(max(np.abs(np.abs(log2(X1))), np.tan(log10(X2)))))))))))))))))), np.cos(log2(log2(np.tan(log2(np.cos(sqrt(X1)))))))))), log10(np.add(X0, X6))), np.cos(log2(np.tan(np.tan(CubeRoot(X1)))))), np.tan(sqrt(max(X1, sqrt(max(max(np.abs(np.cos(X2)), np.tan(log(log10(np.subtract(log(log2(np.cos(log(X3)))), np.abs(log(log(np.subtract(log10(X0), log(X4)))))))))), log2(X5))))))))']
+Clean Fomula Fold 3 = ['CubeRoot(np.subtract(np.abs(log(np.cos(np.multiply(log2(X7), log10(np.subtract(log10(log2(log2(max(X8, np.sin(np.abs(np.tan(div(np.multiply(np.tan(min(max(X1, X4), X4)), np.multiply(X6, np.cos(np.cos(np.tan(X4))))), max(min(np.subtract(np.tan(X0), div(max(CubeRoot(np.subtract(np.subtract(X8, X4), X0)), np.tan(np.add(np.tan(min(min(max(X2, X6), log(X5)), X4)), log2(np.sin(X0))))), sqrt(min(X1, X2)))), np.subtract(X6, log2(X3))), div(CubeRoot(X5), X4)))))))))), CubeRoot(X1))))))), np.cos(np.tan(np.subtract(np.tan(X1), np.subtract(sqrt(max(7478.263, log(np.subtract(X3, div(np.tan(X7), log10(np.abs(sqrt(np.multiply(np.sin(np.multiply(X4, X8)), X4))))))))), np.tan(log2(np.add(np.sin(log10(4731.637)), X1)))))))))']
+Clean Fomula Fold 4 = ['np.multiply(np.tan(log10(np.tan(sqrt(np.subtract(np.subtract(np.add(log2(max(X4, max(6606.423, np.abs(np.multiply(np.tan(sqrt(X2)), min(np.multiply(np.cos(np.multiply(np.sin(log2(CubeRoot(log(np.sin(log2(X8)))))), np.tan(X5))), np.subtract(div(div(CubeRoot(X0), np.tan(X1)), np.subtract(div(X0, X6), np.multiply(X6, X0))), X4)), max(div(4091.322, -1034.098), np.sin(X0)))))))), min(log(div(log10(log10(np.abs(X7))), np.multiply(CubeRoot(np.abs(X5)), log(X2)))), np.multiply(div(np.multiply(sqrt(np.cos(X0)), log(np.sin(X3))), log10(X1)), np.sin(np.add(X6, X2))))), np.sin(log2(X2))), np.tan(CubeRoot(min(np.sin(sqrt(1913.465)), log(np.add(log(X1), np.cos(X4))))))))))), log2(log2(np.add(log(sqrt(log10(np.cos(np.subtract(log10(np.sin(log(np.multiply(sqrt(np.abs(X6)), log10(np.subtract(np.abs(sqrt(min(min(np.cos(X3), np.subtract(X8, X0)), np.multiply(np.tan(X5), np.sin(X4))))), np.abs(X5))))))), log(CubeRoot(X7))))))), CubeRoot(np.cos(min(div(np.subtract(min(CubeRoot(np.sin(sqrt(np.abs(np.cos(np.subtract(np.add(np.sin(X1), log10(5812.593)), log2(X1))))))), log2(np.multiply(log2(np.sin(div(np.abs(X1), np.sin(X0)))), max(max(np.add(np.subtract(X4, X0), np.abs(X7)), div(np.tan(X4), np.abs(log(np.tan(max(X5, -1742.006)))))), log10(CubeRoot(np.abs(X4))))))), log(np.subtract(X6, X1))), CubeRoot(log10(np.subtract(np.tan(np.subtract(np.tan(np.cos(X6)), np.tan(2822.998))), X7)))), np.tan(log(div(-1513.423, X1))))))))))']
+
+###########################################
+SVMSMOTE k = 0
+###########################################
+Hyperparameters
+###################
+1173	183	138	(4, 10)	0.021661972822166378	0.9507079099351105	0.01136279190192464	0.01585466724824483	4e-06	0.9951671077122668	(-1861.7352729402066, 4162.663446128466)	4.6727703912388774e-05
+###################
+Results 
+###################
+MEAN_ACC = 0.9440677966101696
+ STD_ACC = 0.028813559322033944
+ MEAN_ROC_AUC = 0.9438798626350571
+ STD_ROC_AUC = 0.029257873034619297
+ MEAN_PRECISION = 0.9588650313458924
+ STD_PRECISION = 0.024284780302904985
+ MEAN_RECALL = 0.9324682867402949
+ STD_RECALL = 0.030930930418455793
+ MEAN_F1_SCORE = 0.9450542255354922
+ STD_F1_SCORE = 0.02806823365543254
+############
+Depth/Length 
+#################
+depth = 14, length = 119
+depth = 25, length = 266
+depth = 34, length = 147
+depth = 26, length = 216
+depth = 24, length = 172
+#################
+Equations
+#################
+Clean Fomula Fold 0 = ['np.multiply(CubeRoot(np.multiply(log(log10(min(np.subtract(log(np.subtract(max(CubeRoot(X0), X0), log10(CubeRoot(log10(X6))))), np.subtract(X1, CubeRoot(np.sin(X1)))), min(log10(X3), div(min(log10(log10(X6)), min(X7, X7)), max(np.tan(np.sin(np.add(X6, 1614.500))), log2(np.cos(X5)))))))), np.cos(min(np.add(sqrt(min(np.multiply(np.multiply(X5, X0), np.add(np.tan(log10(np.sin(X0))), sqrt(np.tan(log10(np.sin(X0)))))), X1)), np.sin(np.subtract(X1, sqrt(3338.943)))), sqrt(X1))))), log2(np.subtract(div(np.abs(div(816.078, CubeRoot(CubeRoot(np.multiply(np.add(log(X7), np.subtract(div(np.abs(1052.117), min(2737.953, np.multiply(X1, X8))), log2(CubeRoot(X7)))), np.subtract(log2(sqrt(X1)), np.subtract(np.multiply(np.cos(X6), max(X1, X8)), log(div(X4, X3))))))))), np.tan(np.tan(np.cos(X1)))), np.abs(np.add(np.abs(CubeRoot(1735.301)), log(X5))))))']
+Clean Fomula Fold 1 = ['max(np.add(CubeRoot(np.subtract(div(np.subtract(np.add(log10(div(np.tan(log10(max(np.cos(np.multiply(np.abs(1218.549), np.abs(X1))), np.tan(X7)))), np.tan(np.multiply(np.tan(X1), log(X1))))), np.add(log10(log(np.cos(np.multiply(X5, X1)))), np.add(log10(np.multiply(X1, X8)), np.add(log10(div(np.tan(max(X1, np.cos(X0))), max(X6, X7))), np.add(np.tan(X0), min(log2(X5), np.subtract(np.subtract(np.add(log10(div(np.tan(log10(np.subtract(X6, X0))), np.tan(X1))), np.add(np.sin(X0), np.add(log10(np.abs(min(CubeRoot(np.sin(log(X5))), log10(np.cos(np.cos(X5)))))), np.add(sqrt(log2(log2(X1))), np.add(np.abs(np.abs(X3)), min(np.tan(log(div(X1, div(-145.485, 1040.315)))), np.subtract(div(X1, log(max(X4, np.sin(X7)))), np.subtract(np.add(div(X5, X4), np.multiply(X8, X4)), X1)))))))), np.sin(X7)), np.cos(X1)))))))), log10(log10(np.tan(X1)))), log10(log10(X5))), np.tan(sqrt(X1)))), min(np.tan(log(np.cos(log10(X1)))), X5)), np.subtract(np.add(log10(div(div(X0, X1), np.tan(np.sin(X1)))), np.add(log10(np.cos(X4)), np.add(log10(np.subtract(np.tan(X6), X4)), np.add(log10(np.abs(X6)), np.add(log10(X6), min(3141.389, np.subtract(div(np.subtract(np.add(log10(div(np.tan(log10(max(min(X4, X0), min(X1, X5)))), sqrt(np.sin(log2(np.cos(CubeRoot(X1))))))), np.add(log10(div(np.tan(max(X1, X4)), np.tan(sqrt(X1)))), np.add(log10(div(np.abs(np.tan(np.tan(log2(sqrt(X1))))), np.tan(CubeRoot(np.tan(log(X1)))))), np.add(log10(np.abs(X8)), np.add(log10(np.sin(div(np.tan(np.sin(X1)), np.tan(sqrt(X1))))), min(np.tan(log(div(X1, div(-145.485, 1040.315)))), np.subtract(div(np.abs(X1), CubeRoot(sqrt(X5))), np.abs(X6)))))))), log10(log10(np.tan(X1)))), div(sqrt(log(np.subtract(X4, min(np.add(X8, log10(X7)), X6)))), X5)), np.cos(X1)))))))), log10(log10(log(np.tan(CubeRoot(X1)))))))']
+Clean Fomula Fold 2 = ['CubeRoot(np.multiply(np.add(np.abs(max(np.multiply(X2, X2), X1)), np.tan(sqrt(CubeRoot(X1)))), div(min(np.sin(log(np.subtract(log10(1660.604), np.add(log(log2(X1)), X1)))), np.sin(max(np.abs(X1), np.tan(np.add(min(np.tan(log10(X6)), sqrt(log10(np.sin(CubeRoot(max(log2(log10(X3)), X1)))))), np.tan(np.subtract(np.cos(CubeRoot(log2(np.sin(X3)))), np.tan(np.tan(np.cos(CubeRoot(X1))))))))))), np.tan(min(log2(log(np.tan(min(log10(log(log2(np.tan(min(div(sqrt(min(np.add(X0, sqrt(div(X5, X7))), np.abs(div(X4, X3)))), X5), np.sin(max(np.tan(X1), np.multiply(min(np.sin(log(np.subtract(log10(1660.604), np.add(log(log2(X1)), X1)))), np.sin(max(np.abs(X1), np.tan(np.subtract(np.multiply(np.cos(X3), X4), max(min(X4, X8), np.tan(CubeRoot(max(X8, log10(np.multiply(np.multiply(np.sin(log2(X7)), div(log(log2(np.abs(div(X5, X2)))), np.abs(X6))), np.add(sqrt(X7), log(log(X7)))))))))))))), 2765.259)))))))), log(np.tan(log10(sqrt(X1)))))))), log(np.cos(log10(np.sin(1219.952)))))))))']
+Clean Fomula Fold 3 = ['np.subtract(np.tan(log2(log10(min(X3, np.subtract(max(np.multiply(log(X6), X8), sqrt(np.multiply(min(sqrt(np.tan(np.tan(X0))), max(np.sin(X1), X4)), np.cos(np.multiply(np.add(X3, X3), np.tan(3460.564)))))), div(np.multiply(sqrt(div(X0, CubeRoot(CubeRoot(sqrt(X4))))), np.abs(max(X6, np.multiply(log10(np.sin(np.abs(np.cos(X4)))), np.subtract(np.subtract(min(np.tan(np.multiply(X7, X1)), np.tan(log2(np.sin(min(log(X1), X6))))), div(div(X5, X1), log(max(X1, sqrt(log2(np.multiply(X5, np.subtract(CubeRoot(X8), max(X1, X4))))))))), np.multiply(np.cos(sqrt(-1850.657)), max(sqrt(min(X7, X4)), max(np.add(np.subtract(div(np.sin(np.add(-455.908, X4)), div(sqrt(div(np.abs(np.subtract(np.cos(X5), np.multiply(X5, X3))), log2(np.add(np.tan(np.multiply(X5, X2)), np.add(log2(np.tan(X8)), 3431.390))))), np.add(X2, X7))), div(X5, X7)), np.abs(CubeRoot(np.sin(np.multiply(X3, X6))))), log2(log(log10(np.subtract(X6, X1)))))))))))), X5)))))), div(log2(min(log2(np.cos(np.subtract(np.sin(log2(np.add(X5, 2866.230))), np.add(log2(log10(X7)), CubeRoot(np.subtract(X1, X4)))))), np.tan(CubeRoot(np.subtract(np.subtract(X2, max(CubeRoot(X8), X1)), np.sin(168.604)))))), sqrt(log10(np.subtract(np.subtract(np.tan(log2(np.sin(np.tan(div(np.tan(log(X0)), X1))))), div(div(X5, X1), log(max(X1, X2)))), np.multiply(np.cos(np.cos(log(np.sin(X4)))), max(sqrt(max(np.sin(X2), sqrt(np.tan(np.add(X6, np.cos(CubeRoot(np.multiply(max(sqrt(-870.216), X8), sqrt(X6))))))))), np.tan(log(np.cos(log2(X1)))))))))))']
+Clean Fomula Fold 4 = ['log2(np.subtract(log10(log10(log10(log2(np.abs(np.add(np.subtract(X1, X8), min(np.tan(X1), min(min(X5, X3), log(X6))))))))), div(CubeRoot(X6), log10(min(min(min(np.tan(min(min(np.tan(log2(np.abs(log2(min(np.sin(X1), X7))))), sqrt(div(np.cos(max(log10(np.subtract(sqrt(div(np.cos(np.tan(max(X1, 3072.113))), log2(CubeRoot(max(X1, X2))))), log2(np.add(np.sin(CubeRoot(np.multiply(X1, X7))), sqrt(log10(log10(X4))))))), log(np.add(np.sin(log2(min(log2(X8), np.cos(X0)))), max(X6, log2(np.add(max(np.tan(X5), X1), sqrt(max(X6, X1))))))))), 3868.271))), sqrt(div(np.abs(log10(min(min(np.tan(min(CubeRoot(np.cos(log2(np.abs(log2(min(np.sin(X1), X7)))))), sqrt(div(np.abs(log10(np.cos(X1))), np.abs(max(3892.190, X0)))))), sqrt(log10(X1))), sqrt(X3)))), max(log10(145.916), np.add(X3, -819.977)))))), sqrt(div(np.cos(log(np.add(np.sin(log10(log10(max(X2, X8)))), max(np.tan(np.multiply(X7, X0)), log2(np.add(X1, log(max(np.cos(X1), np.subtract(X2, 3257.282))))))))), 3868.271))), max(np.tan(np.tan(sqrt(X3))), np.subtract(np.tan(sqrt(2788.374)), np.cos(np.abs(X0))))), log10(np.tan(sqrt(max(X6, X1)))))))))']
+
+
+
+##################
+Class_2 
+###########################################
+ADASYN k = 0
+###########################################
+###################
+Hyperparameters
+###################
+1972	163	448	(3, 12)	0.03996186607516994	0.951857213979869	0.0011299142730536976	0.006201526075456963	8e-06	0.9994626961387587	(-7137.915595034354, 732.0749766313874)	9.094048343042867e-05
+###################
+Results 
+###################
+MEAN_ACC = 1.0
+ STD_ACC = 0.0
+ MEAN_ROC_AUC = 1.0
+ STD_ROC_AUC = 0.0
+ MEAN_PRECISION = 1.0
+ STD_PRECISION = 0.0
+ MEAN_RECALL = 1.0
+ STD_RECALL = 0.0
+ MEAN_F1_SCORE = 1.0
+ STD_F1_SCORE = 0.0
+####################
+Depth/Length 
+####################
+depth = 29, length = 132
+depth = 7, length = 28
+depth = 8, length = 17
+depth = 15, length = 50
+depth = 14, length = 44
+####################
+Equations
+####################
+Clean Fomula Fold 0 = ['log2(np.tan(np.add(np.abs(max(-2926.218, CubeRoot(np.abs(log(max(np.tan(log(log2(CubeRoot(CubeRoot(log(np.abs(np.add(np.sin(np.cos(min(-925.513, div(np.subtract(X1, np.add(CubeRoot(X5), X8)), log(X4))))), np.add(np.abs(np.sin(CubeRoot(CubeRoot(log10(X1))))), log2(np.abs(np.sin(X1)))))))))))), np.cos(log2(-5460.220)))))))), log2(min(np.abs(np.sin(max(X1, log2(21.111)))), np.abs(np.sin(log(log(log2(CubeRoot(CubeRoot(log(np.abs(np.add(np.sin(np.cos(min(-925.513, max(min(div(np.cos(div(min(X8, X7), log10(X0))), np.multiply(max(min(X8, X3), np.tan(X3)), max(np.cos(X1), np.abs(X8)))), np.tan(sqrt(np.add(np.subtract(X0, X3), np.add(X0, X8))))), log10(np.multiply(CubeRoot(log2(np.cos(X8))), log10(log10(np.abs(X1))))))))), np.add(np.abs(np.sin(CubeRoot(CubeRoot(CubeRoot(log(np.abs(np.add(CubeRoot(CubeRoot(np.tan(log(np.tan(X1))))), np.add(np.cos(-2331.586), log2(np.sin(X1))))))))))), log2(np.sin(X1))))))))))))))))))']
+Clean Fomula Fold 1 = ['np.tan(max(log(np.subtract(min(X1, -2786.943), min(X8, X4))), np.add(max(np.multiply(sqrt(log2(X1)), np.cos(X1)), np.cos(div(np.tan(X1), np.cos(X6)))), np.tan(log2(log(X1))))))']
+Clean Fomula Fold 2 = ['np.sin(min(div(np.multiply(log10(CubeRoot(X1)), np.tan(CubeRoot(np.multiply(-4349.469, log10(X1))))), np.sin(-529.110)), np.tan(-6708.320)))']
+Clean Fomula Fold 3 = ['CubeRoot(min(np.add(np.multiply(X1, 583.577), X1), div(np.abs(np.multiply(X7, X7)), CubeRoot(min(CubeRoot(min(CubeRoot(div(X7, CubeRoot(min(CubeRoot(np.tan(X1)), div(np.multiply(np.cos(np.tan(X1)), CubeRoot(X5)), np.sin(log2(np.multiply(X1, 583.577)))))))), np.cos(np.subtract(X2, X1)))), min(CubeRoot(np.tan(sqrt(div(X1, log(X6))))), np.tan(X3)))))))']
+Clean Fomula Fold 4 = ['np.multiply(min(sqrt(X7), np.multiply(min(np.subtract(min(np.tan(X1), np.multiply(min(np.tan(X1), np.multiply(min(np.subtract(np.tan(X1), np.cos(X1)), log10(np.abs(log(np.sin(X1))))), max(np.abs(X7), X4))), sqrt(X7))), X3), log10(np.abs(log(np.sin(X1))))), max(np.abs(X7), X4))), sqrt(X7))']
+
+###########################################
+BorderlineSMOTE k = 2
+###########################################
+###################
+Hyperparameters
+###################
+1825	150	170	(4, 9)	0.001669836586469073	0.961492397746833	0.02093683629219013	0.015160124127609267	9e-06	0.9940960449482551	(-3645.9142144709094, 5852.148201052382)	6.56520558565864e-05
+###################
+Results 
+###################
+MEAN_ACC = 0.9865891339028193
+ STD_ACC = 0.005363908677594176
+ MEAN_ROC_AUC = 0.9865013609273512
+ STD_ROC_AUC = 0.0052650971910874755
+ MEAN_PRECISION = 0.9747425047394616
+ STD_PRECISION = 0.009968389965346602
+ MEAN_RECALL = 1.0
+ STD_RECALL = 0.0
+ MEAN_F1_SCORE = 0.9870103712748572
+ STD_F1_SCORE = 0.00523468009071526
+####################
+Depth/Length 
+####################
+depth = 14, length = 51
+depth = 9, length = 42
+depth = 13, length = 74
+depth = 15, length = 63
+depth = 8, length = 47
+####################
+Equations
+####################
+Clean Fomula Fold 0 = ['log2(log(np.multiply(np.multiply(np.multiply(np.cos(log10(X8)), np.cos(log(np.cos(np.sin(X1))))), sqrt(log(np.subtract(X4, CubeRoot(2793.020))))), np.sin(np.sin(min(np.tan(log10(max(X1, np.abs(log2(np.subtract(np.add(np.subtract(X2, X3), X5), np.abs(np.multiply(X8, -69.051)))))))), np.add(log10(-2449.600), np.subtract(sqrt(div(log2(np.abs(1695.812)), max(5577.204, X3))), X1))))))))']
+Clean Fomula Fold 1 = ['np.subtract(sqrt(np.tan(np.subtract(np.cos(CubeRoot(sqrt(np.cos(-2468.631)))), np.cos(np.subtract(X1, np.cos(-3448.252)))))), np.add(log2(np.multiply(div(X7, np.sin(X1)), np.subtract(np.add(np.cos(log10(log2(X1))), log(5600.852)), np.add(np.add(X8, X7), np.add(X1, np.tan(X1)))))), np.subtract(min(X4, X1), X2)))']
+Clean Fomula Fold 2 = ['div(np.subtract(log10(np.subtract(max(np.multiply(np.multiply(np.add(-410.948, log(np.cos(np.sin(3082.261)))), np.multiply(X0, np.multiply(4281.277, X7))), np.multiply(1754.953, np.tan(X1))), log2(div(max(np.tan(sqrt(X1)), X3), log2(np.multiply(np.add(X7, X0), X1))))), np.subtract(np.tan(log(min(X2, X8))), log2(np.add(np.subtract(np.multiply(X5, X1), np.subtract(X4, max(np.multiply(np.add(X7, CubeRoot(X6)), div(X8, X6)), np.add(sqrt(X8), sqrt(sqrt(X8)))))), -3088.988))))), np.tan(np.add(np.cos(X1), X1))), np.tan(np.subtract(X1, 1994.896)))']
+Clean Fomula Fold 3 = ['np.tan(log2(min(log10(log(np.sin(3757.003))), np.sin(min(max(X7, np.cos(np.multiply(np.sin(np.multiply(np.add(np.abs(log10(np.multiply(np.add(X8, X5), np.add(X4, 3724.954)))), max(np.multiply(X5, X4), max(X2, X4))), log(log10(np.sin(X1))))), X2))), np.sin(min(np.add(X5, np.tan(np.add(log2(log(np.add(X1, X2))), log10(np.cos(np.sin(np.tan(log10(X7)))))))), np.sin(max(X1, np.multiply(log2(-1734.322), sqrt(sqrt(X2))))))))))))']
+Clean Fomula Fold 4 = ['min(div(min(np.sin(np.sin(np.add(X1, 192.434))), np.multiply(CubeRoot(np.sin(np.multiply(CubeRoot(X2), sqrt(X1)))), np.abs(log2(X0)))), np.abs(div(X6, X7))), max(div(np.add(log(log10(X7)), max(np.cos(3240.298), np.subtract(X0, -2674.055))), log2(np.tan(div(CubeRoot(X3), np.sin(X1))))), div(np.abs(X7), np.cos(X5))))']
+
+###########################################
+KMeansSMOTE k = 0 
+###########################################
+###################
+Hyperparameters
+###################
+1229	182	322	(6, 11)	0.0075111871896241895	0.9542234528480796	0.0023655216582046997	0.03552634194376349	6e-06	0.9957115490180306	(-9706.841332633041, 2518.652130236711)	1.8191557460379442e-05
+###################
+Results 
+###################
+MEAN_ACC = 0.9919279279279279
+ STD_ACC = 0.008072072072072056
+ MEAN_ROC_AUC = 0.9911739241151005
+ STD_ROC_AUC = 0.00882607588489942
+ MEAN_PRECISION = 0.9861444851234982
+ STD_PRECISION = 0.013855514876501829
+ MEAN_RECALL = 1.0
+ STD_RECALL = 0.0
+ MEAN_F1_SCORE = 0.9928270567486254
+ STD_F1_SCORE = 0.0071729432513746305
+####################
+Depth/Length 
+####################
+depth = 9, length = 32
+depth = 12, length = 56
+depth = 16, length = 82
+depth = 14, length = 48
+depth = 13, length = 33
+
+####################
+Equations
+####################
+
+Clean Fomula Fold 0 = ['div(log2(log(np.tan(sqrt(log2(min(np.cos(X1), np.sin(-5228.287))))))), np.tan(div(log2(sqrt(X5)), max(max(log(X2), np.subtract(np.add(X7, max(X0, X0)), np.tan(log(log2(X1))))), log10(X2)))))']
+Clean Fomula Fold 1 = ['np.add(CubeRoot(np.multiply(np.add(X1, np.multiply(log(sqrt(-2517.969)), max(log10(X0), np.multiply(X5, X5)))), log2(np.abs(div(log10(np.tan(np.cos(np.sin(X8)))), np.subtract(np.sin(-7861.400), np.subtract(div(CubeRoot(X1), log10(log(np.cos(X1)))), np.cos(X1)))))))), log2(np.abs(div(log10(np.tan(np.cos(X1))), np.subtract(np.sin(-7861.400), np.subtract(div(CubeRoot(X1), log10(log(np.cos(X1)))), np.cos(X1)))))))']
+Clean Fomula Fold 2 = ['log2(np.tan(np.add(sqrt(np.cos(min(log2(max(div(max(log(X7), X1), np.add(sqrt(log10(np.add(log10(np.cos(np.multiply(X1, -2326.374))), log(X5)))), sqrt(X1))), np.abs(CubeRoot(np.add(X1, np.add(np.multiply(X6, X8), np.add(max(X1, log2(X8)), min(log2(X2), np.tan(X8))))))))), CubeRoot(log(np.add(X0, -2379.313)))))), np.tan(max(min(max(sqrt(X1), np.tan(np.subtract(np.cos(log(np.add(max(X5, X1), np.cos(X4)))), np.subtract(CubeRoot(np.subtract(X8, X3)), np.abs(np.add(X8, X1)))))), CubeRoot(sqrt(np.add(-6627.350, X3)))), log(CubeRoot(-2667.629)))))))']
+Clean Fomula Fold 3 = ['CubeRoot(np.multiply(max(X6, X7), np.multiply(np.subtract(np.subtract(np.sin(X4), min(-6513.578, -1784.965)), np.tan(X1)), min(CubeRoot(CubeRoot(min(CubeRoot(min(log(np.abs(log(np.sin(np.abs(X1))))), np.sin(np.subtract(log2(X6), np.add(X6, X1))))), sqrt(CubeRoot(X6))))), np.multiply(np.subtract(np.multiply(log10(X7), CubeRoot(np.tan(X1))), log10(X2)), X0)))))']
+Clean Fomula Fold 4 = ['np.multiply(CubeRoot(max(np.add(CubeRoot(np.multiply(log(np.add(log(CubeRoot(np.abs(np.sin(X1)))), np.cos(X1))), sqrt(np.multiply(np.multiply(X7, np.subtract(np.tan(np.cos(log2(X1))), X3)), X1)))), CubeRoot(np.subtract(X3, sqrt(X0)))), -4925.879)), 2347.820)']
+
+###########################################
+SMOTE k = 0
+###########################################
+###################
+Hyperparameters
+###################
+1743	134	239	(5, 12)	0.029620512922713116	0.9553036401809497	0.0012336951905020154	0.013218477974273304	1e-06	0.9985670097335245	(-8923.917608514097, 3393.8649510283276)	2.2692309479187153e-05
+###################
+Results 
+###################
+MEAN_ACC = 0.9956464115121835
+ STD_ACC = 0.0036824475482193364
+ MEAN_ROC_AUC = 0.9956398706398706
+ STD_ROC_AUC = 0.0036844536844535813
+ MEAN_PRECISION = 0.9914958680024906
+ STD_PRECISION = 0.0071796286862512715
+ MEAN_RECALL = 1.0
+ STD_RECALL = 0.0
+ MEAN_F1_SCORE = 0.9956947992986419
+ STD_F1_SCORE = 0.0036407488741155847
+####################
+Depth/Length 
+####################
+depth = 13, length = 42
+depth = 16, length = 78
+depth = 17, length = 64
+depth = 14, length = 51
+depth = 28, length = 101
+####################
+Equations
+####################
+ Fomula Fold 0 = ['CubeRoot(div(CubeRoot(div(np.tan(min(CubeRoot(X2), log2(log(np.tan(np.abs(np.subtract(max(np.abs(-1629.364), np.sin(X0)), log(sqrt(X1))))))))), np.abs(log10(sqrt(np.tan(np.abs(log10(min(np.subtract(X8, X8), -8312.985))))))))), np.abs(log10(sqrt(np.tan(np.abs(log10(min(np.tan(X8), -8312.985)))))))))']
+Clean Fomula Fold 1 = ['np.add(sqrt(np.multiply(sqrt(np.abs(np.abs(max(2535.062, X3)))), np.abs(log(log10(np.cos(X1)))))), min(log2(np.add(log2(np.sin(np.multiply(np.abs(X1), -3824.484))), np.abs(X3))), min(log2(log2(np.abs(np.cos(np.cos(CubeRoot(log2(np.add(X1, X8)))))))), div(-5212.663, div(log10(log(X5)), np.subtract(np.multiply(min(log2(X7), log2(X7)), sqrt(np.subtract(X2, X1))), np.add(log(np.add(X3, X1)), np.abs(np.tan(CubeRoot(log2(max(np.multiply(CubeRoot(np.multiply(X3, np.tan(X0))), max(np.cos(div(X1, X5)), np.abs(CubeRoot(X3)))), X1))))))))))))']
+Clean Fomula Fold 2 = ['min(np.tan(log2(log(CubeRoot(max(-451.789, CubeRoot(np.abs(X1))))))), log2(np.multiply(min(273.526, min(np.sin(div(log2(X7), 2760.099)), np.cos(np.subtract(min(X6, min(np.abs(log2(log10(log10(np.cos(np.tan(np.tan(CubeRoot(X1)))))))), X8)), X1)))), np.tan(np.subtract(log(sqrt(np.add(X0, min(np.add(-6245.783, np.multiply(sqrt(579.304), np.tan(CubeRoot(np.subtract(div(CubeRoot(min(X6, X4)), log2(2113.388)), X1))))), log2(X1))))), np.subtract(-3251.605, X1))))))']
+Clean Fomula Fold 3 = ['np.multiply(np.subtract(X0, -6110.368), log(np.subtract(CubeRoot(max(log(np.multiply(sqrt(X3), np.tan(sqrt(div(np.multiply(max(X3, max(np.cos(X3), log10(X1))), np.abs(X1)), CubeRoot(np.subtract(X4, -442.857))))))), div(np.cos(X1), np.abs(min(X5, X1))))), np.cos(np.subtract(min(np.tan(log(X4)), min(div(X6, X7), np.subtract(-557.094, X1))), log10(X7))))))']
+Clean Fomula Fold 4 = ['log2(log2(min(np.sin(log2(log2(min(log2(log2(min(np.sin(log2(log2(min(X5, np.sin(log(np.subtract(log(np.subtract(CubeRoot(np.abs(np.sin(np.sin(div(np.cos(np.add(X1, log2(log10(-7317.592)))), np.add(np.tan(np.sin(222.383)), max(log2(X1), X3))))))), sqrt(np.tan(np.tan(max(sqrt(log(np.multiply(log2(log10(X1)), -8726.067))), 2847.241)))))), sqrt(np.tan(CubeRoot(sqrt(X1))))))))))), np.sin(np.sin(div(X6, X6)))))), np.sin(log(np.subtract(log(np.subtract(CubeRoot(np.abs(np.sin(np.sin(np.tan(X1))))), sqrt(np.tan(np.tan(max(X3, 2847.241)))))), sqrt(np.tan(CubeRoot(sqrt(X1))))))))))), np.sin(log(np.subtract(CubeRoot(np.abs(min(np.sin(803.224), np.sin(sqrt(X1))))), sqrt(np.tan(np.cos(np.abs(np.cos(CubeRoot(X1))))))))))))']
+###########################################
+SVMSMOTE k = 2
+###########################################
+###################
+Hyperparameters
+###################
+1914	144	275	(4, 10)	0.005103583948695225	0.9629145882785843	0.012387293287009153	0.018822178637837056	6e-06	0.9998772066592451	(-5628.295663279466, 7858.708606018571)	9.698099440322397e-05
+###################
+Results 
+###################
+MEAN_ACC = 0.9969808671547802
+ STD_ACC = 0.0023502365241495626
+ MEAN_ROC_AUC = 0.9971558964980017
+ STD_ROC_AUC = 0.0021684278263224277
+ MEAN_PRECISION = 0.9966394025604551
+ STD_PRECISION = 0.0020448079658605955
+ MEAN_RECALL = 0.9976190476190476
+ STD_RECALL = 0.0023809523809523725
+ MEAN_F1_SCORE = 0.9970952847058927
+ STD_F1_SCORE = 0.002244649287506728
+####################
+Depth/Length 
+####################
+depth = 7, length = 31
+depth = 8, length = 18
+depth = 9, length = 18
+depth = 10, length = 24
+depth = 12, length = 29
+####################
+Equations
+####################
+Clean Fomula Fold 0 = ['min(np.multiply(log10(np.subtract(sqrt(log(np.subtract(X7, X8))), np.multiply(np.subtract(X2, log(X7)), np.sin(np.sin(X1))))), -5317.207), np.add(CubeRoot(np.multiply(np.tan(X1), np.abs(-2256.970))), div(np.subtract(X6, 3054.212), np.cos(X1))))']
+Clean Fomula Fold 1 = ['log2(min(log10(np.sin(-4010.312)), np.multiply(5951.038, np.subtract(np.multiply(X5, log2(np.subtract(CubeRoot(2379.882), np.add(X1, X2)))), X2))))']
+Clean Fomula Fold 2 = ['np.multiply(np.tan(log10(np.cos(CubeRoot(max(sqrt(X1), np.multiply(log2(log(-2502.237)), np.add(np.sin(X1), np.cos(X3)))))))), 3353.182)']
+Clean Fomula Fold 3 = ['log2(np.tan(min(div(CubeRoot(min(np.tan(np.add(np.tan(np.cos(X1)), np.tan(X1))), log10(X8))), np.multiply(np.tan(5474.572), np.tan(np.sin(X1)))), log10(np.cos(3606.660)))))']
+Clean Fomula Fold 4 = ['np.multiply(np.subtract(X4, 3970.488), min(sqrt(-3362.435), np.subtract(np.tan(np.cos(np.add(np.sin(np.subtract(X8, X1)), np.abs(X1)))), log10(log10(CubeRoot(np.sin(sqrt(log(np.subtract(X4, np.subtract(X1, sqrt(X8))))))))))))']
